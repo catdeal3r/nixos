@@ -13,6 +13,8 @@
     shell = pkgs.fish;
     packages = with pkgs; [
       google-cursor
+      gnome-themes-extra
+      dconf
     ];
   };
   
