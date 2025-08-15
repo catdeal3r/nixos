@@ -11,7 +11,9 @@
     initialPassword = "12345";
     extraGroups = [ "networkmanager" "wheel" ];
     shell = pkgs.fish;
-    packages = with pkgs; [];
+    packages = with pkgs; [
+      google-cursor
+    ];
   };
   
   programs.fish.enable = true;
