@@ -6,6 +6,9 @@
   ];
 
   home-manager.users.catdealer = { pkgs, ... }: {
+    useUserPackages = true;
+    useGlobalPkgs = true;    
+
     gtk = {
       enable = true;
       cursorTheme = {
@@ -13,5 +16,7 @@
         package = pkgs.google-cursor; 
       };
     };
+   
+    home.stateVersion = "25.05";
   };
 }
