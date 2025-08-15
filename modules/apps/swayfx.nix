@@ -14,7 +14,7 @@
       grim
       wofi
       matugen
-      nautilaus
+      nautilus
       stow
     ];  
   };
