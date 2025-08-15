@@ -18,6 +18,7 @@
       stow
       jq
       libnotify
+      wl-clipboard
     ];  
   };
 }
