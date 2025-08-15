@@ -1,6 +1,10 @@
 { pkgs, ... }:
 
 {
+  imports = [
+    ./home.nix
+  ];  
+
   users.users.catdealer = {
     isNormalUser = true;
     description = "catdeal3r";
