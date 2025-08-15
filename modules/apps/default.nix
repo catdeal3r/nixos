@@ -31,6 +31,7 @@
     cbonsai
     playerctl
     firefox
+    udisks
   ];
   
   services.flatpak.enable = true;
