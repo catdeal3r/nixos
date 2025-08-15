@@ -6,7 +6,7 @@
     ./quickshell.nix
     ./swayfx.nix
     ./silentSDDM.nix
-#    ./flatpak.nix
+    ./flatpak.nix
   ];
   
   environment.systemPackages = with pkgs; [
@@ -30,5 +30,6 @@
     tldr
     cbonsai
     playerctl
+    firefox
   ];
 }
