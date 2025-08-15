@@ -13,7 +13,7 @@
   };
 
   outputs = { nixpkgs, ... }@inputs: {
-    nixosConfigurations.waymachine-nix = nixpkgs.lib.nixosSystem {
+    nixosConfigurations.hpnix = nixpkgs.lib.nixosSystem {
       modules = [ ./modules ];
       specialArgs = { inherit inputs; };
     };
