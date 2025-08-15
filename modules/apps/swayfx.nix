@@ -17,7 +17,7 @@
       nautilus
       stow
       jq
-      notify-send
+      libnotify
     ];  
   };
 }
