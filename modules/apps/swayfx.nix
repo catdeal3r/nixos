@@ -19,6 +19,7 @@
       jq
       libnotify
       wl-clipboard
+      kdePackages.qt5compat
     ];  
   };
 }
