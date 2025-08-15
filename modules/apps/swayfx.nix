@@ -16,6 +16,7 @@
       matugen
       nautilus
       stow
+      jq
     ];  
   };
 }
