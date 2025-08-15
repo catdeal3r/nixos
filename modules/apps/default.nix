@@ -17,7 +17,7 @@
     gh
     fastfetch
     tree
-    zsh
+    fish
     flatpak
     krita
     gimp

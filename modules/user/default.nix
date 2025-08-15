@@ -6,7 +6,7 @@
     description = "catdeal3r";
     initialPassword = "12345";
     extraGroups = [ "networkmanager" "wheel" ];
-    shell = pkgs.zsh;
+    shell = pkgs.fish;
     packages = with pkgs; [];
   };
   
