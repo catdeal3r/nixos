@@ -32,4 +32,6 @@
     playerctl
     firefox
   ];
+  
+  services.flatpak.enable = true;
 }
