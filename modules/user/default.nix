@@ -15,6 +15,7 @@
       google-cursor
       gnome-themes-extra
       dconf
+      adwaita-icon-theme
     ];
   };
   
