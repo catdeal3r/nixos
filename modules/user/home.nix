@@ -37,7 +37,8 @@
         package = pkgs.gnome-themes-extra;
       };
 
-      systemd.user.sessionVariables = home-manager.users.catdealer.home.sessionVariables;
+      # should fix at some point ...
+      # systemd.user.sessionVariables = home-manager.users.catdealer.home.sessionVariables;
  
     };
 
