@@ -11,7 +11,17 @@
   };
 
   home-manager.users.catdealer = { pkgs, ... }: {
+    # location dirs
+    xdg.userDirs = {
+      enable = true;
+      pictures = "/run/media/catdealer/Data/Pictures";
+      documents = "/run/media/catdealer/Data/Documents";
+      music = "/run/media/catdealer/Data/Music";
+      videos = "/run/media/catdealer/Data/Videos";
+    };
 
+
+    # gtk theme settings and such
     dconf.settings = {
       "org/gnome/desktop/interface" = {
         color-scheme = "prefer-dark";
