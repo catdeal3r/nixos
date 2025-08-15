@@ -21,6 +21,7 @@
       wl-clipboard
       glib
       lxde.lxsession
+      material-icons
       # quickshell
       kdePackages.qt5compat
       kdePackages.qtmultimedia
