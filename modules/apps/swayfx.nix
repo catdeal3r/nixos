@@ -19,7 +19,11 @@
       jq
       libnotify
       wl-clipboard
+      glib
+      lxde.lxsession
+      # quickshell
       kdePackages.qt5compat
+      kdePackages.qtmultimedia
     ];  
   };
 }
