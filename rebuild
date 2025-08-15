@@ -1,7 +1,7 @@
 #!/bin/sh
 cd /etc/nixos
 sudo git add .
-gen=$(date)
+gen=$(date '+%a %-d %b %Y %I:%M:%S %p')
 sudo git commit -m "$gen"
 sudo nixos-rebuild --flake .# switch
 if [[ $? == 0 ]]; then
