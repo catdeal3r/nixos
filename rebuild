@@ -1,0 +1,11 @@
+#!/bin/sh
+cd /etc/nixos
+sudo git add .
+gen=$(date)
+sudo git commit -m "$gen"
+sudo nixos-rebuild --flake .# switch
+if [[ $? == 0 ]]; then
+  if [[ "$(nmcli n c)" != "none" ]]; then
+    sudo git push
+  fi
+fi
