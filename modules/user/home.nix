@@ -42,12 +42,12 @@
  
     };
 
-
-    qt = {
-      enable = true;
-      platformTheme = "gnome";
-      style = "adwaita-dark";
-    }; 
+    # same thing here
+    # qt = {
+    #  enable = true;
+    #  platformTheme = "gnome";
+    #  style = "adwaita-dark";
+    #}; 
    
     home.stateVersion = "25.05";
   };
