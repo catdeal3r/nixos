@@ -29,7 +29,7 @@
     };
 
 
-    gtk = {
+     gtk = {
       enable = true;
       
       iconTheme = {
@@ -42,10 +42,10 @@
         package = pkgs.google-cursor; 
       };
 
-      theme = {
-        name = "Adwaita-dark";
-        package = pkgs.gnome-themes-extra;
-      };
+    #  theme = {
+    #    name = "Adwaita-dark";
+    #    package = pkgs.gnome-themes-extra;
+    #  };
 
       # should fix at some point ...
       # systemd.user.sessionVariables = home-manager.users.catdealer.home.sessionVariables;

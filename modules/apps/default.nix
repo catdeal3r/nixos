@@ -35,6 +35,7 @@
     geany
     feh
     cava
+    mlocate
   ];
   
   services.flatpak.enable = true;
