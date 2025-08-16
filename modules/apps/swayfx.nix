@@ -23,6 +23,7 @@
       lxde.lxsession
       material-icons
       material-symbols
+      nerd-fonts.hack
       # quickshell
       kdePackages.qt5compat
       kdePackages.qtmultimedia
