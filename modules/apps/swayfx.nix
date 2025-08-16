@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 
 {
   programs.sway = {
@@ -37,5 +37,6 @@
     material-symbols
     material-icons
     nerd-fonts.hack
+    inputs.apple-fonts.sf-pro
   ];
 }
