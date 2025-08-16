@@ -22,6 +22,7 @@
       glib
       lxde.lxsession
       material-icons
+      material-symbols
       # quickshell
       kdePackages.qt5compat
       kdePackages.qtmultimedia
@@ -30,4 +31,9 @@
   
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = with pkgs; [];
+  
+  fonts.packages = with pkgs; [
+    material-symbols
+    material-icons
+  ];
 }
