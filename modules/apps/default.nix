@@ -34,6 +34,7 @@
     udisks
     geany
     feh
+    cava
   ];
   
   services.flatpak.enable = true;
