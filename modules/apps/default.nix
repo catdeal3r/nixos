@@ -37,8 +37,7 @@
     cava
     mlocate
     gvfs
-    gcc
-    g++
+    libgcc
   ];
   
   services.flatpak.enable = true;
