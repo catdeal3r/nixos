@@ -36,5 +36,6 @@
   fonts.packages = with pkgs; [
     material-symbols
     material-icons
+    nerd-fonts.hack
   ];
 }
