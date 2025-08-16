@@ -22,7 +22,6 @@
     krita
     gimp
     opentabletdriver
-    equibop
     mpv
     ffmpeg
     zoxide
@@ -38,6 +37,7 @@
     mlocate
     gvfs
     libgcc
+    gnat15
   ];
   
   services.flatpak.enable = true;
