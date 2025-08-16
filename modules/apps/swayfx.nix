@@ -37,6 +37,6 @@
     material-symbols
     material-icons
     nerd-fonts.hack
-    inputs.apple-fonts.x86_64-linux.sf-pro
+    inputs.apple-fonts.packages.x86_64-linux.sf-pro
   ];
 }
