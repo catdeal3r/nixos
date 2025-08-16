@@ -49,7 +49,7 @@
      
       gtk2 = {
         theme = {
-          name = "Adwaita-dark"
+          name = "Adwaita-dark";
           package = pkgs.gnome-themes-extra;
         };
       };
