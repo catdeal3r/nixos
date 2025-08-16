@@ -21,6 +21,9 @@
       wl-clipboard
       glib
       lxde.lxsession
+      gtk3
+      gtk4
+      # fonts
       material-icons
       material-symbols
       nerd-fonts.hack
