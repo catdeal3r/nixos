@@ -14,7 +14,7 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    apple-fonts.url = "git+https://codeberg.org/adamcstephens/apple-fonts.nix";
+    apple-fonts.url = "github:dealerofallthecats/apple-fonts-flake";
   };
 
   outputs = { nixpkgs, ... }@inputs: {
