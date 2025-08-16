@@ -3,20 +3,25 @@
     "apple-fonts": {
       "inputs": {
         "flake-parts": "flake-parts",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "ny-source": "ny-source",
+        "sf-arabic-source": "sf-arabic-source",
+        "sf-compact-source": "sf-compact-source",
+        "sf-mono-source": "sf-mono-source",
+        "sf-pro-source": "sf-pro-source"
       },
       "locked": {
-        "lastModified": 1709568998,
-        "narHash": "sha256-cXl5pfkrfkxgAoCuUcv6TYqNCFNJC7khaRLB6Qi1rag=",
-        "ref": "refs/heads/main",
-        "rev": "8d73d62fca08bad0837fe7f1cda4ef104d5f0f8c",
-        "revCount": 15,
-        "type": "git",
-        "url": "https://codeberg.org/adamcstephens/apple-fonts.nix"
+        "lastModified": 1755304904,
+        "narHash": "sha256-Eo3DYna3fFFE3pGMTS5M6EeCbJ/c3WmuM8B3KwEUUXk=",
+        "owner": "dealerofallthecats",
+        "repo": "apple-fonts-flake",
+        "rev": "54d6eec3ea44ffe71ef750b57054c5633fc87932",
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "https://codeberg.org/adamcstephens/apple-fonts.nix"
+        "owner": "dealerofallthecats",
+        "repo": "apple-fonts-flake",
+        "type": "github"
       }
     },
     "flake-parts": {
@@ -123,6 +128,18 @@
         "type": "github"
       }
     },
+    "ny-source": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-3257NAH4qlan2YHVLpNRy7x8IJqR2pal3OzFo/ykqXs=",
+        "type": "file",
+        "url": "https://devimages-cdn.apple.com/design/resources/download/NY.dmg"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://devimages-cdn.apple.com/design/resources/download/NY.dmg"
+      }
+    },
     "quickshell": {
       "inputs": {
         "nixpkgs": [
@@ -151,6 +168,54 @@
         "nixpkgs": "nixpkgs_2",
         "quickshell": "quickshell",
         "silentSDDM": "silentSDDM"
+      }
+    },
+    "sf-arabic-source": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-/0gjRimqvZyE60xYxxPdlU+7Q2LJnnvtbmwOP0YmS9U=",
+        "type": "file",
+        "url": "https://devimages-cdn.apple.com/design/resources/download/SF-Arabic.dmg"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://devimages-cdn.apple.com/design/resources/download/SF-Arabic.dmg"
+      }
+    },
+    "sf-compact-source": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-VMCf2Mhmx/qhLRQxlTAsQWxtonS27kPW+oTYBBRWHMg=",
+        "type": "file",
+        "url": "https://devimages-cdn.apple.com/design/resources/download/SF-Compact.dmg"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://devimages-cdn.apple.com/design/resources/download/SF-Compact.dmg"
+      }
+    },
+    "sf-mono-source": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-ICdHRFdNL7PM/fXJUzS7LgZxZiqcyIuCMHLze4En4vg=",
+        "type": "file",
+        "url": "https://devimages-cdn.apple.com/design/resources/download/SF-Mono.dmg"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://devimages-cdn.apple.com/design/resources/download/SF-Mono.dmg"
+      }
+    },
+    "sf-pro-source": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-RX6X2ltVE88Hp1g9tpSywMT3UfdLpRxgw92KRpiAues=",
+        "type": "file",
+        "url": "https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg"
       }
     },
     "silentSDDM": {

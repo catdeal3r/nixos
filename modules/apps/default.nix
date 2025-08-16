@@ -33,6 +33,7 @@
     firefox
     udisks
     geany
+    feh
   ];
   
   services.flatpak.enable = true;
