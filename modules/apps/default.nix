@@ -32,6 +32,7 @@
     playerctl
     firefox
     udisks
+    geany
   ];
   
   services.flatpak.enable = true;
