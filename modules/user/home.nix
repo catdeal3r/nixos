@@ -42,9 +42,11 @@
         package = pkgs.google-cursor; 
       };
 
-      theme = {
-        name = "Adwaita-dark";
-        package = pkgs.gnome-themes-extra;
+      gtk3 = {
+        theme = {
+          name = "Adwaita-dark";
+          package = pkgs.gnome-themes-extra;
+        };
       };
      
       gtk2 = {
