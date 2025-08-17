@@ -27,8 +27,8 @@
         defaultApplications = {
           "application/pdf" = [ "firefox.desktop" ];
           "text/html" = [ "firefox.desktop" ];
-          "image/png" = [ "eog.desktop" ];
-          "image/jpeg" = [ "eog.desktop" ];
+          "image/png" = [ "org.gnome.eog.desktop" ];
+          "image/jpeg" = [ "org.gnome.eog.desktop" ];
           "text/markdown" = [ "md.obsidian.Obsidian.desktop" ];
         };
       };
