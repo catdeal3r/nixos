@@ -31,12 +31,17 @@
       # quickshell
       kdePackages.qt5compat
       kdePackages.qtmultimedia
-      # fix gtk monke ass ahh file pick 
+      # try to fix gtk monke ass ahh file pick 
       xdg-user-dirs-gtk
       xdg-desktop-portal-gtk
       gsettings-desktop-schemas
+      dconf-editor
+      dconf
     ];  
   };
+
+
+  programs.dconf.enable = true;
   
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = with pkgs; [];
