@@ -40,6 +40,7 @@
     gnat15
     eog
     vlc
+    htop
   ];
   
   services.flatpak.enable = true;
