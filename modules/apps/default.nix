@@ -43,7 +43,6 @@
     htop
     vscodium
     libreoffice
-    cpupower
   ];
   
   services.flatpak.enable = true;
