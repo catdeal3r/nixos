@@ -42,10 +42,12 @@
     vlc
     htop
     vscodium
+    dconf
   ];
   
   services.flatpak.enable = true;
   services.udisks2.enable = true;
   services.gvfs.enable = true;
-  services.dconf.enable = true;
+
+  programs.dconf.enable = true;
 }
