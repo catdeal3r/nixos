@@ -23,6 +23,7 @@
       lxde.lxsession
       gtk3
       gtk4
+      helix
       # fonts
       material-icons
       material-symbols
