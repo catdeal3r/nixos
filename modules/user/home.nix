@@ -29,6 +29,7 @@
 
         associations.removed = {
           "applications/pdf" = "gimp.desktop";
+        };
       };
     };
 
