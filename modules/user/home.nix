@@ -23,6 +23,11 @@
 
       mimeApps = {
         enable = true;
+        
+        associations.added = {
+          "applications/pdf" = [ "firefox.desktop" ];
+        };
+
         defaultApplications = {
           "applications/pdf" = [ "firefox.desktop" ];
         };
