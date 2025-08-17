@@ -26,6 +26,9 @@
         defaultApplications = {
           "applications/pdf" = [ "firefox.desktop" ];
         };
+
+        associations.removed = {
+          "applications/pdf" = "gimp.desktop";
       };
     };
 
