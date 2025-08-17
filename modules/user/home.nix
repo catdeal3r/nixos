@@ -43,14 +43,17 @@
         terminal = false;
         type = "Application";
         actions = {
-          "New Window" = {
+          "NewWindow" = {
             exec = "firefox --new-window %U -P";
+            name = "New Window";
           };
-          "Profile Manager" = {
+          "ProfileManager" = {
             exec = "firefox -P";
+            name = "Profile Manager";
           };
-          "New Private Window" = {
+          "NewPrivateWindow" = {
             exec = "firefox --private-window %U -P";
+            name = "New Private Window";
           };
         };
         exec = "firefox --name firefox %U -P";
