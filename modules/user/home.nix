@@ -32,6 +32,7 @@
           "text/markdown" = [ "md.obsidian.Obsidian.desktop" ];
           "inode/directory" = [ "org.gnome.Nautilus.desktop" ];
           "application/x-gnome-saved-search" = [ "org.gnome.Nautilus.desktop" ]; 
+          "image/gif" = [ "org.gnome.eog.desktop" ];
         };
       };
 
