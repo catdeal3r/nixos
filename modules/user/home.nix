@@ -30,6 +30,8 @@
           "image/png" = [ "org.gnome.eog.desktop" ];
           "image/jpeg" = [ "org.gnome.eog.desktop" ];
           "text/markdown" = [ "md.obsidian.Obsidian.desktop" ];
+          "inode/directory" = [ "org.gnome.Nautilus.desktop" ];
+          "application/x-gnome-saved-search" = [ "org.gnome.Nautilus.desktop" ]; 
         };
       };
 
