@@ -39,6 +39,7 @@
     libgcc
     gnat15
     eog
+    vlc
   ];
   
   services.flatpak.enable = true;
