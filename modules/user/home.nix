@@ -24,17 +24,17 @@
       mimeApps = {
         enable = true;
         
-        associations.added = {
-          "applications/pdf" = [ "firefox.desktop" ];
-        };
+        #associations.added = {
+        #  "application/pdf" = [ "firefox.desktop" ];
+        #};
 
         defaultApplications = {
-          "applications/pdf" = [ "firefox.desktop" ];
+          "application/pdf" = [ "firefox.desktop" ];
         };
 
-        associations.removed = {
-          "applications/pdf" = "gimp.desktop";
-        };
+        #associations.removed = {
+        #  "application/pdf" = "gimp.desktop";
+        #};
       };
     };
 
