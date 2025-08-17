@@ -42,6 +42,7 @@
     vlc
     htop
     vscodium
+    libreoffice
   ];
   
   services.flatpak.enable = true;
