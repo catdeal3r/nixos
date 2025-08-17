@@ -34,6 +34,14 @@
       };
 
       desktopEntries.firefox = {
+        name = "Firefox";
+        genericName = "Web Browser";
+        categories = [ "Network" "WebBrowser" ];
+        Icon = "Firefox";
+        mimeType = [ "text/html" "text/xml" "application/xhtml+xml" "application/vnd.mozilla.xul+xml" "x-scheme-handler/http" "x-scheme-handler/https" ];
+        startupNotify = true;
+        terminal = false;
+        type = "Application";
         actions = {
           "New Window" = {
             exec = "firefox --new-window %U -P";
