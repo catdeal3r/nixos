@@ -38,6 +38,7 @@
     gvfs
     libgcc
     gnat15
+    eog
   ];
   
   services.flatpak.enable = true;
