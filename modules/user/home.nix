@@ -32,9 +32,22 @@
           "text/markdown" = [ "md.obsidian.Obsidian.desktop" ];
         };
       };
-    };
 
-    
+      desktopEntries.firefox = {
+        actions = {
+          "New Window" = {
+            exec = "firefox --new-window %U -P";
+          };
+          "Profile Manager" = {
+            exec = "firefox -P";
+          };
+          "New Private Window" = {
+            exec = "firefox --private-window %U -P";
+          };
+        };
+        exec = "firefox --name firefox %U -P";
+      };
+    };
 
 
     # gtk theme settings and such
