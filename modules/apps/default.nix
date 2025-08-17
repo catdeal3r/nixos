@@ -41,6 +41,7 @@
     eog
     vlc
     htop
+    vscodium
   ];
   
   services.flatpak.enable = true;
