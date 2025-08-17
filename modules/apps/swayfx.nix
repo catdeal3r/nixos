@@ -31,10 +31,10 @@
       # quickshell
       kdePackages.qt5compat
       kdePackages.qtmultimedia
-      # fix gtk shite
+      # fix gtk monke ass ahh file pick 
       xdg-user-dirs-gtk
       xdg-desktop-portal-gtk
-      gsettings-desktop-schema
+      gsettings-desktop-schemas
     ];  
   };
   
