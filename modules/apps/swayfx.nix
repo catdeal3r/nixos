@@ -44,7 +44,10 @@
   programs.dconf.enable = true;
   
   programs.nix-ld.enable = true;
-  programs.nix-ld.libraries = with pkgs; [];
+  programs.nix-ld.libraries = with pkgs; [
+  # Put missing dynamic libraries in here, not in the normal package place
+    libdbus
+  ];
   
   fonts.packages = with pkgs; [
     material-symbols
