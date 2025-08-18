@@ -46,7 +46,7 @@
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = with pkgs; [
   # Put missing dynamic libraries in here, not in the normal package place
-    libdbus
+    libdbus-1
   ];
   
   fonts.packages = with pkgs; [
