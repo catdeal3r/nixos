@@ -1,14 +1,15 @@
 { pkgs, inputs, ... }: let
   sddm-theme = inputs.silentSDDM.packages.${pkgs.system}.default.override {
     theme = "default";
-    "LoginScreen" = {
-       use-background-color = true;
-       background-color = #000000;
+    
+    theme-overrides = {
+      "LoginScreen" = {
+         use-background-color = true;
+      };
+      "LockScreen" = {
+         use-background-color = true;
+      }; 
     };
-    "LockScreen" = {
-       use-background-color = true;
-       background-color = #000000;
-    }; 
   };
 in
 {
