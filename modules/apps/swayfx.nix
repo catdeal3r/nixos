@@ -24,6 +24,7 @@
       gtk3
       gtk4
       helix
+      brightnessctl
       # fonts
       material-icons
       material-symbols
@@ -46,7 +47,7 @@
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = with pkgs; [
   # Put missing dynamic libraries in here, not in the normal package place
-    dbus
+   dbus
   ];
   
   fonts.packages = with pkgs; [
