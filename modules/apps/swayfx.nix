@@ -25,6 +25,7 @@
       gtk4
       helix
       brightnessctl
+      pulseaudio
       # fonts
       material-icons
       material-symbols
