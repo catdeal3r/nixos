@@ -43,7 +43,7 @@
     htop
     vscodium
     libreoffice
-    ungoogle-chromium
+    ungoogled-chromium
   ];
   
   services.flatpak.enable = true;
