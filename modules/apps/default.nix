@@ -44,6 +44,7 @@
     vscodium
     libreoffice
     ungoogled-chromium
+    libinput
   ];
   
   services.flatpak.enable = true;
