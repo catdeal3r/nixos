@@ -35,6 +35,8 @@
       gnomeExtensions.quick-settings-tweaker
       gnomeExtensions.rounded-window-corners-reborn
       gnomeExtensions.search-light
+      # also us to use dconf2nix
+      dconf2nix
     ];
 
     programs.gnome-shell = {
