@@ -128,8 +128,8 @@
       };
 
       cursorTheme = {
-        name = "GoogleDot-Black";
-        package = pkgs.google-cursor; 
+        name = "McMojave";
+        package = inputs.mcmojave-cursor.packages.x86_64-linux.default; 
       };
 
       theme = {

@@ -15,6 +15,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     apple-fonts.url = "github:dealerofallthecats/apple-fonts-flake";
+    mcmojave-cursor.url = "github:dealerofallthecats/mcmojave-cursor-flake";
   };
 
   outputs = { nixpkgs, ... }@inputs: {
