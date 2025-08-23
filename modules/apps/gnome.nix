@@ -305,7 +305,6 @@
       };
       "/org/gnome/shell/extensions/rounded-window-corners-reborn" = {
         border-width = 0;
-        settings-version = 7;
         skip-libadwaita-app = false;
       };
       "/org/gnome/shell/extensions/search-light" = {
