@@ -96,9 +96,12 @@
         move-to-workspace-8 = [ "<Shift><Super>8" ];
         switch-to-workspace-left = [ "<Super>Left" ];
         switch-to-workspace-right = [ "<Super>Right" ];
+        switch-input-source = [ ];
+        switch-input-source-backward = [ ];
       };
       "org/gnome/shell/keybindings" = {
         screenshot = [ "<Shift><Super>s" ];
+        toggle-quick-settings = [ "<Super>space" ];
       };
       "org/gnome/mutter/keybindings" = {
         toggle-tiled-left = [ ];
