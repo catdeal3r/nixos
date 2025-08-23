@@ -305,12 +305,12 @@
       };
       "/org/gnome/shell/extensions/rounded-windows-corners-reborn" = {
         border-width = 0;
-        settings-version = mkUint32 7;
+        settings-version = 7;
         skip-libadwaita-app = false;
       };
       "/org/gnome/shell/extensions/search-light" = {
         animation-speed = 162.0;
-        background-color = mkTuple [ 0.0 0.0 0.0 1.0 ];
+        background-color = [ 0.0 0.0 0.0 1.0 ];
         blur-brightness = 0.6;
         blur-sigma = 30.0;
         border-radius = 1.1782178217821784;
