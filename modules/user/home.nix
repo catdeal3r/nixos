@@ -81,10 +81,28 @@
       };
       "org/gnome/desktop/wm/preferences" = {
         resize-with-right-button = true;
+        num-workspaces = 8;
       };
       "org/gnome/desktop/wm/keybindings" = {
-        activate-window-menu = "";
+        activate-window-menu = [ ];
         close = [ "<Super>w" ];
+        move-to-workspace-1 = [ "<Shift><Super>1" ];
+        move-to-workspace-2 = [ "<Shift><Super>2" ];
+        move-to-workspace-3 = [ "<Shift><Super>3" ];
+        move-to-workspace-4 = [ "<Shift><Super>4" ];
+        move-to-workspace-5 = [ "<Shift><Super>5" ];
+        move-to-workspace-6 = [ "<Shift><Super>6" ];
+        move-to-workspace-7 = [ "<Shift><Super>7" ];
+        move-to-workspace-8 = [ "<Shift><Super>8" ];
+        switch-to-workspace-left = [ "<Super>Left" ];
+        switch-to-workspace-right = [ "<Super>Right" ];
+      };
+      "org/gnome/shell/keybindings" = {
+        screenshot = [ "<Shift><Super>s" ];
+      };
+      "org/gnome/mutter/keybindings" = {
+        toggle-tiled-left = [ ];
+        toggle-tiled-right = [ ];
       };
     };
 
