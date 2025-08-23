@@ -74,12 +74,4 @@ lib.checkListOfEnum "${pname}: theme tweaks" validTweaks tweaks
       ''}
       runHook postInstall
     '';
-
-    meta = with lib; {
-      description = "Material Design theme for GNOME/GTK based desktop environments";
-      homepage = "https://github.com/vinceliuice/Orchis-theme";
-      license = licenses.gpl3Plus;
-      platforms = platforms.linux;
-      maintainers = [ maintainers.fufexan ];
-    };
   }
