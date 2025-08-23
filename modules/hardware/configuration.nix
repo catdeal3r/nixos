@@ -67,9 +67,6 @@
       epiphany
       geary
     ];
-    includePackages = with pkgs; [
-      gnome-extension-manager
-    ];
   };
   
   # Delete old nixos versions

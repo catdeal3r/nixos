@@ -47,6 +47,7 @@
     libinput
     gnome-text-editor
     unzip
+    gnome-extension-manager
   ];
   
   services.flatpak.enable = true;
