@@ -7,7 +7,7 @@
   gtk-engine-murrine,
   sassc,
   border-radius ? null, # Suggested: 2 < value < 16
-  tweaks ? [ "black", "solid" ], # can be "solid" "compact" "black" "primary" "macos" "submenu" "nord|dracula"
+  tweaks ? [ "black" "solid" ], # can be "solid" "compact" "black" "primary" "macos" "submenu" "nord|dracula"
   withWallpapers ? false,
   ...
 }:
