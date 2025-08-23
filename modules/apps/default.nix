@@ -46,6 +46,7 @@
     ungoogled-chromium
     libinput
     gnome-text-editor
+    unzip
   ];
   
   services.flatpak.enable = true;
