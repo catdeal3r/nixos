@@ -139,6 +139,9 @@
         focus-border-toggle = [ ];
         prefs-tiling-toggle = [ "<Super>f" ];
         window-focus-down = [ ];
+        window-focus-left = [ ];
+        window-focus-right = [ ];
+        window-focus-up = [ ];
         window-gap-size-decrease = [ ];
         window-gap-size-increase = [ ];
         window-move-down = [ ];
