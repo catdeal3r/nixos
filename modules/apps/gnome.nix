@@ -304,7 +304,7 @@
         trigger-reload = false;
       };
       "/org/gnome/shell/extensions/rounded-window-corners-reborn" = {
-        border-width = 0;
+        #border-width = 0;
         skip-libadwaita-app = false;
       };
       "/org/gnome/shell/extensions/search-light" = {
