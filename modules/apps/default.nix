@@ -45,6 +45,7 @@
     libreoffice
     ungoogled-chromium
     libinput
+    gnome-text-editor
   ];
   
   services.flatpak.enable = true;
