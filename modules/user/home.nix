@@ -68,7 +68,7 @@
       enable = true;
       
       theme = {
-        name = "Orchis-dark";
+        name = "Orchis-Grey-Dark";
         package = pkgs.orchis-theme.override { tweaks = [ "black" "solid" ]; };
       };
     };
@@ -104,7 +104,7 @@
       };
 
       theme = {
-        name = "Orchis-dark";
+        name = "Orchis-Grey-Dark";
         package = pkgs.orchis-theme.override { tweaks = [ "black" "solid" ]; };
       };
      
