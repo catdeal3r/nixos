@@ -47,14 +47,9 @@
     libinput
     gnome-text-editor
     unzip
-    # trying out minimal gnome
-    gnome-shell
-    gnome-control-center
   ];
   
   services.flatpak.enable = true;
   services.udisks2.enable = true;
   services.gvfs.enable = true;
-
-  programs.gnome.enable = true;
 }

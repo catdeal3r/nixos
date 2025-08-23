@@ -52,6 +52,20 @@
 
   # Add SDDM
   services.displayManager.sddm.wayland.enable = true;
+
+  # GNOME stuff
+  services.xserver.displayManager.sddm.enable = true;
+  services.xserver.desktopManager.gnome.enable = true;
+
+  environment.gnome.excludePackages = with gnome; {
+    gedit
+    gnome-software
+    gnome-music
+    simple-scan
+    totem
+    epiphany
+    geary
+  };
   
   # Delete old nixos versions
   nix.gc = {
