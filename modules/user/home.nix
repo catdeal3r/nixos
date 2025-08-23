@@ -82,6 +82,10 @@
       "org/gnome/desktop/wm/preferences" = {
         resize-with-right-button = true;
       };
+      "org/gnome/desktop/wm/keybindings" = {
+        activate-window-menu = '';
+        close = '<Super>w';
+      };
     };
 
 
