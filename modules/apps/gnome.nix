@@ -303,11 +303,12 @@
         shalpha = 0.0;
         trigger-reload = false;
       };
-      "/org/gnome/shell/extensions/rounded-window-corners-reborn" = {
-        #border-width = 0;
+      "org/gnome/shell/extensions/rounded-window-corners-reborn" = {
+        border-width = 0;
+        settings-version = 7;
         skip-libadwaita-app = false;
       };
-      "/org/gnome/shell/extensions/search-light" = {
+      "org/gnome/shell/extensions/search-light" = {
         animation-speed = 162.0;
         background-color = [ 0.0 0.0 0.0 1.0 ];
         blur-brightness = 0.6;
