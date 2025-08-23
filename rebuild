@@ -3,7 +3,11 @@ cd /etc/nixos
 sudo git add .
 gen=$(date '+%a %-d %b %Y %I:%M:%S %p')
 sudo git commit -m "$gen"
-sudo nixos-rebuild --flake .# switch
+if [[ $1 == "u" ]]; then
+  sudo nixos-rebuild --flake .# switch --upgrade
+else
+  sudo nixos-rebuild --flake .# switch
+fi
 if [[ $? == 0 ]]; then
   if [[ "$(nmcli n c)" != "none" ]]; then
     sudo git push
