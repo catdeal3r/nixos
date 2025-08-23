@@ -79,6 +79,9 @@
       "org/gnome/desktop/interface" = {
         color-scheme = "prefer-dark";
       };
+      "org/gnome/desktop/wm/preferences" = {
+        resize-with-right-button = true;
+      };
     };
 
 
