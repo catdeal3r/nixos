@@ -39,7 +39,6 @@
     gvfs
     libgcc
     gnat15
-    eog
     vlc
     htop
     vscodium

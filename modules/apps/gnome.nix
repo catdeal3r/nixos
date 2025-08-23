@@ -5,7 +5,27 @@
     inputs.home-manager.nixosModules.default
   ];
 
+  # add gnome and remove useless packages
+  services.desktopManager.gnome.enable = true;
+  environment.gnome.excludePackages = with pkgs; [
+    gedit
+    gnome-software
+    gnome-music
+    eog
+    simple-scan
+    totem
+    epiphany
+    geary
+    gnome-tour
+    tali
+    yelp
+    gnome-maps
+    gnome-contacts
+    gnome-terminal
+  ];
+
   home-manager.users.catdealer = { pkgs, ... }: {
+    # extensions
     home.packages = with pkgs; [
       gnomeExtensions.appindicator
       gnomeExtensions.forge
@@ -26,7 +46,7 @@
       };
     };
 
-    # gtk theme settings and such
+    # gnome settings and such
     dconf.settings = {
       "org/gnome/desktop/interface" = {
         color-scheme = "prefer-dark";
@@ -62,13 +82,13 @@
       "org/gnome/shell" = {
         disabled-extensions = [
           "vertical-workspaces@G-dH.github.com"
-          "forge@jmmaranan.com"
           "dynamic-panel@velhlkj.com"
           "compact-quick-settings@gnome-shell-extensions.mariospr.org"
         ];
         enabled-extensions = [
           "user-theme@gnome-shell-extensions.gcampax.github.com"
           "appindicatorsupport@rgcjonas.gmail.com"
+          "forge@jmmaranan.com"
           "just-perfection-desktop@just-perfection"
           "mediacontrols@cliffniff.github.com"
           "openbar@neuromorph"
@@ -93,7 +113,13 @@
         command = "kitty --detach";
         name = "Kitty";
       };
+      "org/gnome/shell/extensions/appindicator" = {
+        icon-brightness = 0;
+        icon-contrast = 0;
+        icon-opacity = 255;
+        icon-saturation = 1;
+        icon-size = 0;
+      };
     };
   };
-
 }
