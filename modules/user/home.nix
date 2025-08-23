@@ -94,7 +94,7 @@
       };
       
       font = {
-        name = "CommitMono";
+        name = "Commit-Mono";
         package = pkgs.nerd-fonts.commit-mono;
       };
 
