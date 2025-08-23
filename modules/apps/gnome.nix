@@ -303,6 +303,25 @@
         shalpha = 0.0;
         trigger-reload = false;
       };
+      "/org/gnome/shell/extensions/rounded-windows-corners-reborn" = {
+        border-width = 0;
+        settings-version = mkUint32 7;
+        skip-libadwaita-app = false;
+      };
+      "/org/gnome/shell/extensions/search-light" = {
+        animation-speed = 162.0;
+        background-color = mkTuple [ 0.0 0.0 0.0 1.0 ];
+        blur-brightness = 0.6;
+        blur-sigma = 30.0;
+        border-radius = 1.1782178217821784;
+        entry-font-size = 1;
+        font-size = 1;
+        monitor-count = 1;
+        preferred-monitor = 0;
+        scale-height = 0.1;
+        scale-width = 0.0;
+        shortcut-search = [ "<Alt>space" ];
+      };
     };
   };
 }
