@@ -104,7 +104,7 @@
         switch-input-source-backward = [ ];
       };
       "org/gnome/shell/keybindings" = {
-        screenshot = [ "<Shift><Super>s" ];
+        show-screenshot-ui = [ "<Shift><Super>s" ];
         toggle-quick-settings = [ "<Super>space" ];
       };
       "org/gnome/mutter/keybindings" = {
