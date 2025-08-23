@@ -57,15 +57,20 @@
   services.xserver.displayManager.sddm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
 
-  environment.gnome.excludePackages = with pkgs; [
-    gedit
-    gnome-software
-    gnome-music
-    simple-scan
-    totem
-    epiphany
-    geary
-  ];
+  environment.gnome = {
+    excludePackages = with pkgs; [
+      gedit
+      gnome-software
+      gnome-music
+      simple-scan
+      totem
+      epiphany
+      geary
+    ];
+    includePackages = with pkgs; [
+      gnome-extension-manager
+    ];
+  };
   
   # Delete old nixos versions
   nix.gc = {
