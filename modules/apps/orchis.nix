@@ -9,6 +9,7 @@
   border-radius ? 10, # Suggested: 2 < value < 16
   tweaks ? [ "black" ], # can be "solid" "compact" "black" "primary" "macos" "submenu" "nord|dracula"
   withWallpapers ? false,
+  ...
 }:
 
 let
