@@ -70,6 +70,7 @@
       theme = {
         name = "Orchis-dark";
         package = pkgs.orchis-theme;
+        package.override { tweaks = [ "black" ] };
       };
     };
 

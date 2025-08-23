@@ -6,7 +6,7 @@
   gnome-themes-extra,
   gtk-engine-murrine,
   sassc,
-  border-radius ? null, # Suggested: 2 < value < 16
+  border-radius ? 10, # Suggested: 2 < value < 16
   tweaks ? [ "black" "solid" ], # can be "solid" "compact" "black" "primary" "macos" "submenu" "nord|dracula"
   withWallpapers ? false,
   ...
