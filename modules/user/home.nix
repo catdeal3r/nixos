@@ -64,6 +64,16 @@
     };
 
 
+    programs.gnome-shell = {
+      enable = true;
+      
+      theme = {
+        name = "Orchis-dark";
+        package = pkgs.orchis-theme;
+      };
+    };
+
+
     # gtk theme settings and such
     dconf.settings = {
       "org/gnome/desktop/interface" = {
