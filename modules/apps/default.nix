@@ -49,7 +49,7 @@
     gnome-text-editor
     unzip
     gnome-extension-manager
-    nerd-fonts.commit-mono
+    commit-mono
     orchis-theme
   ];
   

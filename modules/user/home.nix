@@ -116,8 +116,8 @@
       };
       
       font = {
-        name = "CommitMono-Nerd-Font";
-        package = pkgs.nerd-fonts.commit-mono;
+        name = "CommitMono";
+        package = pkgs.commit-mono;
       };
 
       cursorTheme = {
