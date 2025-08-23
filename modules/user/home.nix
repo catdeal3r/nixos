@@ -69,7 +69,7 @@
       
       theme = {
         name = "Orchis-dark";
-        package = pkgs.orchis-theme.override { tweaks = [ "black" ]; };
+        package = pkgs.orchis-theme.override { tweaks = [ "black" "solid" ] };
       };
     };
 
@@ -104,8 +104,8 @@
       };
 
       theme = {
-        name = "Adwaita-dark";
-        package = pkgs.orchis-theme.override { tweaks = [ "black" ]; };
+        name = "Orchis-dark";
+        package = pkgs.orchis-theme.override { tweaks = [ "black" "solid" ] };
       };
      
       # should fix at some point ...
