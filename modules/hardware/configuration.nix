@@ -57,7 +57,7 @@
   services.xserver.displayManager.sddm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
 
-  environment.gnome.excludePackages = with gnome; {
+  environment.gnome.excludePackages = with pkgs; [
     gedit
     gnome-software
     gnome-music
@@ -65,7 +65,7 @@
     totem
     epiphany
     geary
-  };
+  ];
   
   # Delete old nixos versions
   nix.gc = {
