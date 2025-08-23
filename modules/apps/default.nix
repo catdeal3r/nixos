@@ -6,7 +6,7 @@
     ./quickshell.nix
     ./swayfx.nix
     ./silentSDDM.nix
-    ./orchis.nix
+    #./orchis.nix
 #    ./flatpak.nix
   ];
   
@@ -50,6 +50,7 @@
     unzip
     gnome-extension-manager
     nerd-fonts.commit-mono
+    orchis-theme
   ];
   
   services.flatpak.enable = true;
