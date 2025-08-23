@@ -27,12 +27,16 @@
         defaultApplications = {
           "application/pdf" = [ "firefox.desktop" ];
           "text/html" = [ "firefox.desktop" ];
-          "image/png" = [ "org.gnome.eog.desktop" ];
-          "image/jpeg" = [ "org.gnome.eog.desktop" ];
+          "image/png" = [ "org.gnome.Loupe.desktop" ];
+          "image/jpeg" = [ "org.gnome.Loupe.desktop" ];
+          "image/svg" = [ "org.gnome.Loupe.desktop" ];
+          "image/avif" = [ "org.gnome.Loupe.desktop" ];
+          "image/webp" = [ "org.gnome.Loupe.desktop" ]; 
+          "image/gif" = [ "org.gnome.Loupe.desktop" ];
+          "image/tiff" = [ "org.gnome.Loupe.desktop" ];
           "text/markdown" = [ "md.obsidian.Obsidian.desktop" ];
           "inode/directory" = [ "org.gnome.Nautilus.desktop" ];
           "application/x-gnome-saved-search" = [ "org.gnome.Nautilus.desktop" ]; 
-          "image/gif" = [ "org.gnome.eog.desktop" ];
         };
       };
 
