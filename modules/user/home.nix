@@ -84,7 +84,7 @@
       };
       "org/gnome/desktop/wm/keybindings" = {
         activate-window-menu = "";
-        close = "<Super>w";
+        close = [ "<Super>w" ];
       };
     };
 
