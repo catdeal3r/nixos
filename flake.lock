@@ -78,6 +78,41 @@
         "type": "github"
       }
     },
+    "mcmojave-cursor": {
+      "inputs": {
+        "mcmojave-source": "mcmojave-source",
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1755948065,
+        "narHash": "sha256-64enOh+dDTsBVlgpvL4coXuloIU7IcuuqZtHhAXtN/I=",
+        "owner": "dealerofallthecats",
+        "repo": "mcmojave-cursor-flake",
+        "rev": "963192de57b9de2b1944d9ce44a8968b98170106",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dealerofallthecats",
+        "repo": "mcmojave-cursor-flake",
+        "type": "github"
+      }
+    },
+    "mcmojave-source": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1614124859,
+        "narHash": "sha256-4YqSucpxA7jsuJ9aADjJfKRPgPR89oq2l0T1N28+GV0=",
+        "owner": "vinceliuice",
+        "repo": "McMojave-cursors",
+        "rev": "7d0bfc1f91028191cdc220b87fd335a235ee4439",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vinceliuice",
+        "repo": "McMojave-cursors",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1709237383,
@@ -113,6 +148,22 @@
       }
     },
     "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1755615617,
+        "narHash": "sha256-HMwfAJBdrr8wXAkbGhtcby1zGFvs+StOp19xNsbqdOg=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "20075955deac2583bb12f07151c2df830ef346b4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_3": {
       "locked": {
         "lastModified": 1755027561,
         "narHash": "sha256-IVft239Bc8p8Dtvf7UAACMG5P3ZV+3/aO28gXpGtMXI=",
@@ -165,7 +216,8 @@
         "apple-fonts": "apple-fonts",
         "flatpaks": "flatpaks",
         "home-manager": "home-manager",
-        "nixpkgs": "nixpkgs_2",
+        "mcmojave-cursor": "mcmojave-cursor",
+        "nixpkgs": "nixpkgs_3",
         "quickshell": "quickshell",
         "silentSDDM": "silentSDDM"
       }
