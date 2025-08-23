@@ -303,7 +303,7 @@
         shalpha = 0.0;
         trigger-reload = false;
       };
-      "/org/gnome/shell/extensions/rounded-windows-corners-reborn" = {
+      "/org/gnome/shell/extensions/rounded-window-corners-reborn" = {
         border-width = 0;
         settings-version = 7;
         skip-libadwaita-app = false;
