@@ -47,6 +47,9 @@
     libinput
     gnome-text-editor
     unzip
+    # trying out minimal gnome
+    gnome-shell
+    gnome-control-center
   ];
   
   services.flatpak.enable = true;
