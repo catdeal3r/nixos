@@ -40,7 +40,7 @@
         name = "Firefox";
         genericName = "Web Browser";
         categories = [ "Network" "WebBrowser" ];
-        icon = "Firefox";
+        icon = "firefox";
         mimeType = [ "text/html" "text/xml" "application/xhtml+xml" "application/vnd.mozilla.xul+xml" "x-scheme-handler/http" "x-scheme-handler/https" ];
         startupNotify = true;
         terminal = false;
@@ -92,14 +92,14 @@
      
       gtk2 = {
         theme = {
-          name = "Adwaita-dark";
+          name = "Orchis-dark";
           package = pkgs.gnome-themes-extra;
         };
       };
   
       gtk3 = {
         theme = {
-          name = "Adwaita-dark";
+          name = "Orchis-dark";
           package = pkgs.gnome-themes-extra;
         };
       };

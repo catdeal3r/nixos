@@ -48,6 +48,7 @@
     gnome-text-editor
     unzip
     gnome-extension-manager
+    orchis-theme
   ];
   
   services.flatpak.enable = true;

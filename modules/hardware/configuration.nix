@@ -54,8 +54,7 @@
   services.displayManager.sddm.wayland.enable = true;
 
   # GNOME stuff
-  services.xserver.displayManager.sddm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
+  services.desktopManager.gnome.enable = true;
 
   environment.gnome = {
     excludePackages = with pkgs; [
