@@ -6,7 +6,7 @@
     ./quickshell.nix
     ./swayfx.nix
     ./silentSDDM.nix
-    #./orchis.nix
+    ./gnome.nix
 #    ./flatpak.nix
   ];
   
