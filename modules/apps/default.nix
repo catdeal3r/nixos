@@ -49,6 +49,7 @@
     gnome-text-editor
     unzip
     gnome-extension-manager
+    nerd-fonts.commit-mono
   ];
   
   services.flatpak.enable = true;

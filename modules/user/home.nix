@@ -69,8 +69,7 @@
       
       theme = {
         name = "Orchis-dark";
-        package = pkgs.orchis-theme;
-        package.override = { tweaks = [ "black" ]; };
+        package = pkgs.orchis-theme.override { tweaks = [ "black" ]; };
       };
     };
 
@@ -93,31 +92,22 @@
         name = "Adwaita";
         package = pkgs.adwaita-icon-theme;
       };
+      
+      font = {
+        name = "CommitMono";
+        package = pkgs.nerd-fonts.commit-mono;
+      };
 
       cursorTheme = {
         name = "GoogleDot-Black";
         package = pkgs.google-cursor; 
       };
 
-      #theme = {
-      #  name = "Adwaita-dark";
-      #  package = pkgs.gnome-themes-extra;
-      #};
+      theme = {
+        name = "Adwaita-dark";
+        package = pkgs.orchis-theme.override { tweaks = [ "black" ]; };
+      };
      
-      gtk2 = {
-        theme = {
-          name = "Orchis-dark";
-          package = pkgs.gnome-themes-extra;
-        };
-      };
-  
-      gtk3 = {
-        theme = {
-          name = "Orchis-dark";
-          package = pkgs.gnome-themes-extra;
-        };
-      };
-
       # should fix at some point ...
       # systemd.user.sessionVariables = home-manager.users.catdealer.home.sessionVariables;
  
