@@ -11,6 +11,19 @@
   };
 
   home-manager.users.catdealer = { pkgs, ... }: {
+    # extensions
+    home.packages = with pkgs; [
+      gnomeExtensions.appindicator
+      gnomeExtensions.forge
+      gnomeExtensions.just-perfection
+      gnomeExtensions.media-controls
+      gnomeExtensions.open-bar
+      gnomeExtensions.quick-settings-tweaker
+      gnomeExtensions.rounded-window-corners-reborn
+      gnomeExtensions.search-light
+    ];  
+
+
     # location dirs and mime types
     xdg = {
       userDirs = {
@@ -110,6 +123,24 @@
       "org/gnome/mutter/keybindings" = {
         toggle-tiled-left = [ ];
         toggle-tiled-right = [ ];
+      };
+      "org/gnome/shell" = {
+        disabled-extensions = [
+          "vertical-workspaces@G-dH.github.com"
+          "forge@jmmaranan.com"
+          "dynamic-panel@velhlkj.com"
+          "compact-quick-settings@gnome-shell-extensions.mariospr.org"
+        ];
+        enabled-extensions = [
+          "user-theme@gnome-shell-extensions.gcampax.github.com"
+          "appindicatorsupport@rgcjonas.gmail.com"
+          "just-perfection-desktop@just-perfection"
+          "mediacontrols@cliffniff.github.com"
+          "openbar@neuromorph"
+          "quick-settings-tweaks@qwreey"
+          "rounded-window-corners@fxgn"
+          "search-light@icedman.github.com"
+        ];
       };
     };
 
