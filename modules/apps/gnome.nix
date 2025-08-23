@@ -202,6 +202,20 @@
         workspace-switcher-size = 5;
         workspace-wrap-around = true;
       };
+      "org/gnome/shell/extensions/mediacontrols" = {
+        cache-art = false;
+        colored-player-icon = false;
+        extensions-index = 1;
+        labels-order = [ "ARTIST" "-" "TITLE" ];
+        label-width = 220;
+        mouse-action-left = "PREVIOUS_TRACK";
+        mouse-action-middle = "PLAY_PAUSE";
+        mouse-action-right = "NEXT_TRACK";
+        scroll-labels = true;
+        show-control-icons = false;
+        show-player-icon = false;
+        show-track-slider = false;
+      };
     };
   };
 }
