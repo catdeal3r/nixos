@@ -65,6 +65,13 @@
       totem
       epiphany
       geary
+      gnome-tour
+      epiphany
+      tali
+      yelp
+      gnome-maps
+      gnome-contacts
+      gnome-terminal
     ];
   };
   
