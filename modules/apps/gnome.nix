@@ -113,6 +113,7 @@
         command = "kitty --detach";
         name = "Kitty";
       };
+      # extensions settings
       "org/gnome/shell/extensions/appindicator" = {
         icon-brightness = 0;
         icon-contrast = 0;
@@ -169,6 +170,37 @@
         window-toggle-always-float = [ ];
         window-toggle-float = [ ];
         workspace-active-tile-toggle = [ "<Shift><Super>f" ];
+      };
+      "org/gnome/shell/extensions/just-perfection" = {
+        accessibility-menu = true;
+        activites-button = true;
+        clock-menu = true;
+        clock-menu-positition = 1;
+        clock-menu-position-offset = 5;
+        dash = false;
+        dash-app-running = false;
+        dash-icon-size = 0;
+        dash-separator = false;
+        max-displayed-search-results = 0;
+        panel = true;
+        panel-in-overview = true;
+        ripple-box = false;
+        search = false;
+        show-apps-button = false;
+        startup-status = 0;
+        support-notifier-showed-version = 34;
+        support-notifier-type = 0;
+        theme = false;
+        top-panel-position = 0;
+        window-demands-attentions-focus = false;
+        window-picker-icon = false;
+        window-preview-caption = false;
+        window-preview-close-button = true;
+        workspace = false;
+        workspace-popup = false;
+        workspaces-in-app-grid = false;
+        workspace-switcher-size = 5;
+        workspace-wrap-around = true;
       };
     };
   };
