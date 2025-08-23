@@ -56,5 +56,5 @@
   services.udisks2.enable = true;
   services.gvfs.enable = true;
 
-  programs.gnome-shell.enable = true;
+  programs.gnome.enable = true;
 }
