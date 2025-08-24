@@ -128,8 +128,8 @@
         focus-border-toggle = false;
         tabbed-tiling-mode-enabled = false;
         tiling-mode-enabled = false;
-        window-gap-size = hm.gvariant.mkUnit32 7;
-        window-gap-size-increment = hm.gvariant.mkUint32 2; 
+        window-gap-size = lib.hm.gvariant.mkUnit32 7;
+        window-gap-size-increment = lib.hm.gvariant.mkUint32 2; 
       };
       "org/gnome/shell/extensions/forge/keybindings" = {
         con-split-horizontal = [ ];
