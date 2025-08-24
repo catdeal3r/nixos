@@ -24,9 +24,8 @@
     gnome-terminal
   ];
 
-  home-manager.users.catdealer = { pkgs, lib, ... }: {
-    with lib.hm.gvariant;
-
+  home-manager.users.catdealer = { pkgs, lib, ... }: with lib.hm.gvariant; {
+    
     # extensions
     home.packages = with pkgs; [
       gnomeExtensions.appindicator
