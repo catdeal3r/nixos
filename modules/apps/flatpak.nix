@@ -11,7 +11,7 @@
       "flathub" = "https://dl.flathub.org/repo/flathub.flatpakrepo";
     };
     packages = [
-      "flathub:app/io.gitlab.theevilskeleton.Upscaler//stable"
+      "flathub:app/io.gitlab.theevilskeleton.Upscaler/x86_64/stable"
     ];
   };
 }
