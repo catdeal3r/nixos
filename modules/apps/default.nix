@@ -50,7 +50,7 @@
     commit-mono
     orchis-theme
     stow
-    
+    helix  
   ];
   
   services.udisks2.enable = true;
