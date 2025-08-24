@@ -90,18 +90,15 @@
         name = "Orchis-Grey-Dark";
         package = pkgs.orchis-theme.override { tweaks = [ "black" "solid" ]; };
       };
-     
-      # should fix at some point ...
-      # systemd.user.sessionVariables = home-manager.users.catdealer.home.sessionVariables;
- 
     };
-
-    # same thing here
-    # qt = {
-    #  enable = true;
-    #  platformTheme = "gnome";
-    #  style = "adwaita-dark";
-    #}; 
+    
+    home.pointerCursor = {
+      enable = true;
+      name = "McMojave";
+      package = inputs.mcmojave-cursor.packages.x86_64-linux.default;
+      gtk.enable = true;
+      x11.enable = true;
+    };
    
     home.stateVersion = "25.05";
   };
