@@ -26,6 +26,12 @@
   # Enable bluetooth
   hardware.bluetooth.enable = true;
 
+  # forgot to add swapfile lol
+  swapDevices = [{
+    device = "/swapfile";
+    size = 16 * 1024; # 16gb
+  }];
+
   # Set your time zone.
   time.timeZone = "Pacific/Auckland";
 
