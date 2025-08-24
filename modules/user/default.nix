@@ -42,9 +42,7 @@
   
     services.otd-daemon = {
       description = "opentabletdriver-daemon";
-      wantedBy = [ "graphical-session.target" ];
-      wants = [ "graphical-session.target" ];
-      after = [ "graphical-session.target" ];
+      wantedBy = [ "multi-user.target" ];
       serviceConfig = {
         Type = "simple";
         ExecStart = "otd-daemon";
