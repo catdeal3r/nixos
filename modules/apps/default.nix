@@ -5,7 +5,6 @@
   imports = [
     ./quickshell.nix
 #    ./swayfx.nix
-#    ./silentSDDM.nix
     ./gnome.nix
     ./flatpak.nix
   ];
@@ -54,7 +53,6 @@
     
   ];
   
-  services.flatpak.enable = true;
   services.udisks2.enable = true;
   services.gvfs.enable = true;
 }
