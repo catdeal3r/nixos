@@ -17,6 +17,12 @@
 
     packages = [
       "io.gitlab.theevilskeleton.Upscaler"
+      "io.github.equicord.equibop"
+      "md.obsidian.Obsidian"
     ];
   };
+
+  # create .desktop files for the flatpaks
+  #home-manager.users.catdealer = { pkgs, ... }: {
+  #};
 }
