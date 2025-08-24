@@ -21,7 +21,10 @@
   };
   
   programs.fish.enable = true;
-  hardware.opentabletdriver.enable = true;
+  hardware.opentabletdriver = {
+    enable = true;
+    blacklistedKernalModules = [ "wacom" ];
+  };
 
   # polkit
   security.polkit.enable = true;
