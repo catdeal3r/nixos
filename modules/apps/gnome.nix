@@ -50,7 +50,7 @@
     };
 
     # gnome settings and such
-    dconf.settings = with lib.hm.gavriant; {
+    dconf.settings = with lib.home-manager.gavriant; {
       "org/gnome/desktop/interface" = {
         color-scheme = "prefer-dark";
       };
