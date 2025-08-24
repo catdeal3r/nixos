@@ -7,6 +7,8 @@
 
   # add gnome and remove useless packages
   services.desktopManager.gnome.enable = true;
+  services.displayManager.gdm.enable = true;
+
   environment.gnome.excludePackages = with pkgs; [
     gedit
     gnome-software

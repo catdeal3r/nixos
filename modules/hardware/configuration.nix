@@ -56,8 +56,8 @@
     variant = "";
   };
 
-  # Add SDDM
-  services.displayManager.sddm.wayland.enable = true;
+  # Add SDDM (comment out if using gnome)
+  #services.displayManager.sddm.wayland.enable = true;
 
   # Delete old nixos versions
   nix.gc = {
