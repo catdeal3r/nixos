@@ -21,6 +21,7 @@
   };
   
   programs.fish.enable = true;
+  hardware.opentabletdriver.enable = true;
 
   # polkit
   security.polkit.enable = true;
@@ -34,18 +35,6 @@
       serviceConfig = {
         Type = "simple";
         ExecStart = "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
-        Restart = "on-failure";
-        RestartSec = 1;
-        TimeoutStopSec = 10;
-      };
-    };
-  
-    services.otd-daemon = {
-      description = "opentabletdriver-daemon";
-      wantedBy = [ "multi-user.target" ];
-      serviceConfig = {
-        Type = "simple";
-        ExecStart = "otd-daemon";
         Restart = "on-failure";
         RestartSec = 1;
         TimeoutStopSec = 10;
