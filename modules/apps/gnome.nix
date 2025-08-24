@@ -50,7 +50,7 @@
     };
 
     # gnome settings and such
-    dconf.settings = with lib.home-manager.gavriant; {
+    dconf.settings = {
       "org/gnome/desktop/interface" = {
         color-scheme = "prefer-dark";
       };
@@ -128,8 +128,8 @@
         focus-border-toggle = false;
         tabbed-tiling-mode-enabled = false;
         tiling-mode-enabled = false;
-        window-gap-size = mkUnit32 7;
-        window-gap-size-increment = mkUint32 2; 
+        window-gap-size = hm.gvariant.mkUnit32 7;
+        window-gap-size-increment = hm.gvariant.mkUint32 2; 
       };
       "org/gnome/shell/extensions/forge/keybindings" = {
         con-split-horizontal = [ ];
