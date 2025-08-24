@@ -124,8 +124,6 @@
         icon-size = 0;
       };
       "org/gnome/shell/extensions/forge" = {
-        css-last-update = 37;
-        css-updated = "1755916077806";
         focus-border-toggle = false;
         tabbed-tiling-mode-enabled = false;
         tiling-mode-enabled = false;
