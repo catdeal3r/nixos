@@ -127,7 +127,7 @@
         focus-border-toggle = false;
         tabbed-tiling-mode-enabled = false;
         tiling-mode-enabled = false;
-        window-gap-size = 7;
+        window-gap-size = 14;
         window-gap-size-increment = 2; 
       };
       "org/gnome/shell/extensions/forge/keybindings" = {
