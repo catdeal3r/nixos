@@ -5,7 +5,7 @@
     inputs.home-manager.nixosModules.default
   ];
   
-  environment.packages = with pkgs; [
+  environment.systemPackages = with pkgs; [
     dconf2nix
     kitty
     nautilus
