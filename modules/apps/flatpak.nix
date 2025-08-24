@@ -1,17 +1,20 @@
-{ inputs, ... }:
+{ inputs, lib, ... }:
 
 {
   imports = [
-    inputs.flatpaks.nixosModule
+    inputs.flatpak-nix.nixosModule.nix-flatpak
   ];
 
   services.flatpak = {
-    enable = true;
-    remotes = {
-      "flathub" = "https://dl.flathub.org/repo/flathub.flatpakrepo";
-    };
+    remotes = lib.mkOptionDefault [{
+      name = "flathub";
+      location = "https://dl.flathub.org/repo/flathub.flatpakrepo";
+    }];
+
+    update.onActivation = true;
+
     packages = [
-      "flathub:app/io.gitlab.theevilskeleton.Upscaler/x86_64/stable"
+      "io.gitlab.theevilskeleton.Upscaler"
     ];
   };
 }
