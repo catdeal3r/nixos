@@ -127,7 +127,7 @@
       "org/gnome/shell/extensions/forge" = {
         focus-border-toggle = false;
         tabbed-tiling-mode-enabled = false;
-        tiling-mode-enabled = false;
+        tiling-mode-enabled = true;
         window-gap-size = mkUint32 7;
         window-gap-size-increment = mkUint32 2; 
       };
