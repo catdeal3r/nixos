@@ -25,6 +25,7 @@
   ];
 
   home-manager.users.catdealer = { pkgs, lib, ... }: {
+    with lib.hm.gvariant;
 
     # extensions
     home.packages = with pkgs; [
@@ -128,8 +129,8 @@
         focus-border-toggle = false;
         tabbed-tiling-mode-enabled = false;
         tiling-mode-enabled = false;
-        window-gap-size = lib.hm.gvariant.mkUnit32 7;
-        window-gap-size-increment = lib.hm.gvariant.mkUint32 2; 
+        window-gap-size = mkUint32 7;
+        window-gap-size-increment = mkUint32 2; 
       };
       "org/gnome/shell/extensions/forge/keybindings" = {
         con-split-horizontal = [ ];
