@@ -24,7 +24,7 @@
     gnome-terminal
   ];
 
-  home-manager.users.catdealer = { pkgs, ... }: {
+  home-manager.users.catdealer = { pkgs, lib, ... }: {
 
     # extensions
     home.packages = with pkgs; [
