@@ -1,9 +1,11 @@
-{ inputs, pkgs, ... }:
+{ inputs, pkgs, lib, ... }:
 
 {
   imports = [
     inputs.home-manager.nixosModules.default
   ];
+
+  with lib.hm.gavriant;
 
   # add gnome and remove useless packages
   services.desktopManager.gnome.enable = true;
