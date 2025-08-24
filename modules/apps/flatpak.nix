@@ -5,7 +5,6 @@
     inputs.flatpaks.nixosModule
   ];
 
-  {
   services.flatpak = {
     enable = true;
     remotes = {
@@ -15,5 +14,4 @@
       "flathub:app/io.gitlab.theevilskeleton.Upscaler//stable"
     ];
   };
-}
 }
