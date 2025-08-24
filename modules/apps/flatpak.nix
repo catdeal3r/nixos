@@ -20,9 +20,9 @@
       "io.github.equicord.equibop"
       "md.obsidian.Obsidian"
     ];
+    
+    overrides = {
+      global.Environment.XCURSOR_PATH = "/run/host/user-share/icons:/run/host/share/icons";
+    };
   };
-
-  # create .desktop files for the flatpaks
-  #home-manager.users.catdealer = { pkgs, ... }: {
-  #};
 }
