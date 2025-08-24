@@ -5,7 +5,7 @@
   imports = [
     ./quickshell.nix
     ./swayfx.nix
-    ./silentSDDM.nix
+#    ./silentSDDM.nix
     ./gnome.nix
     ./flatpak.nix
   ];
