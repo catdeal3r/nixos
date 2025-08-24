@@ -35,7 +35,7 @@
       gnomeExtensions.quick-settings-tweaker
       gnomeExtensions.rounded-window-corners-reborn
       gnomeExtensions.search-light
-      # also us to use dconf2nix
+      # also allow us to use dconf2nix
       dconf2nix
     ];
 
@@ -130,7 +130,7 @@
         tabbed-tiling-mode-enabled = false;
         tiling-mode-enabled = false;
         window-gap-size = 7;
-        window-gap-size-increment = 1; 
+        window-gap-size-increment = 2; 
       };
       "org/gnome/shell/extensions/forge/keybindings" = {
         con-split-horizontal = [ ];
