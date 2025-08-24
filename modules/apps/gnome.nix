@@ -5,7 +5,6 @@
     inputs.home-manager.nixosModules.default
   ];
 
-  with lib.hm.gavriant;
 
   # add gnome and remove useless packages
   services.desktopManager.gnome.enable = true;
@@ -27,6 +26,9 @@
   ];
 
   home-manager.users.catdealer = { pkgs, ... }: {
+
+    with lib.hm.gavriant;
+
     # extensions
     home.packages = with pkgs; [
       gnomeExtensions.appindicator
