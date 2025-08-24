@@ -1,13 +1,41 @@
-{ pkgs, inputs, ... }:
-
+{ pkgs, inputs, ... }: let
+  sddm-theme = inputs.silentSDDM.packages.${pkgs.system}.default.override {
+    theme = "default";
+    
+    theme-overrides = {
+      "LoginScreen" = {
+         use-background-color = true;
+      };
+      "LockScreen" = {
+         use-background-color = true;
+      }; 
+    };
+  };
+in
 {
+  services.displayManager.sddm.enable = true;
+
+  environment.systemPackages = [ sddm-theme sddm-theme.test ];
+  qt.enable = true;
+  services.displayManager.sddm = {
+    package = pkgs.kdePackages.sddm;
+    enable = true;
+    theme = sddm-theme.pname;
+    extraPackages = sddm-theme.propagatedBuildInputs;
+    settings = {
+      General = {
+        GreeterEnvironment = "QML2_IMPORT_PATH=${sddm-theme}/share/sddm/theme/${sddm-theme.pname}/component/,QT_IM__MODULE=qtvirtualkeyboard";
+        InputMethod = "qtvirtualkeyboard";
+      };
+    };
+  };
+
   programs.sway = {
     enable = true;
     package = pkgs.swayfx;
 
     extraPackages = with pkgs; [
       kitty
-      stow
       swaybg
       swayidle
       slurp
@@ -15,15 +43,12 @@
       wofi
       matugen
       nautilus
-      stow
-      jq
       libnotify
       wl-clipboard
       glib
       lxde.lxsession
       gtk3
       gtk4
-      helix
       brightnessctl
       pulseaudio
       # fonts
@@ -44,12 +69,6 @@
 
 
   programs.dconf.enable = true;
-  
-  programs.nix-ld.enable = true;
-  programs.nix-ld.libraries = with pkgs; [
-  # Put missing dynamic libraries in here, not in the normal package place
-   dbus
-  ];
   
   fonts.packages = with pkgs; [
     material-symbols

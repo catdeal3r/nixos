@@ -4,7 +4,7 @@
 
   imports = [
     ./quickshell.nix
-    ./swayfx.nix
+#    ./swayfx.nix
 #    ./silentSDDM.nix
     ./gnome.nix
     ./flatpak.nix
@@ -50,6 +50,8 @@
     gnome-extension-manager
     commit-mono
     orchis-theme
+    stow
+    
   ];
   
   services.flatpak.enable = true;

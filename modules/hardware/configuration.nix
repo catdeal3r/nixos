@@ -63,6 +63,12 @@
     options = "--delete-older-than 5d";
   };
   nix.settings.auto-optimise-store = true;
+  
+  programs.nix-ld.enable = true;
+  programs.nix-ld.libraries = with pkgs; [
+  # Put missing dynamic libraries in here, not in the normal packaging place
+    dbus
+  ];
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;

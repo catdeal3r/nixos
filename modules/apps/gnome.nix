@@ -4,6 +4,23 @@
   imports = [
     inputs.home-manager.nixosModules.default
   ];
+  
+  environment.packages = with pkgs; [
+    dconf2nix
+    kitty
+    nautilus
+    xdg-user-dirs-gtk
+    gtk3
+    gtk4
+    brightnessctl
+    pulseaudio
+    dconf
+    dconf-editor
+    xdg-desktop-portal-gtk
+    libnotify
+  ];
+  
+  programs.dconf.enable = true;
 
   # add gnome and remove useless packages
   services.desktopManager.gnome.enable = true;
@@ -38,8 +55,6 @@
       gnomeExtensions.quick-settings-tweaker
       gnomeExtensions.rounded-window-corners-reborn
       gnomeExtensions.search-light
-      # also allow us to use dconf2nix
-      dconf2nix
     ];
 
     programs.gnome-shell = {
@@ -75,6 +90,10 @@
         switch-to-workspace-right = [ "<Super>Right" ];
         switch-input-source = [ ];
         switch-input-source-backward = [ ];
+        unmaximize = [ ];
+        toggle-maximized = [ "<Super>Up" ];
+        maximize = [ ];
+        minimize = [ "<Super>Down" ];
       };
       "org/gnome/shell/keybindings" = {
         show-screenshot-ui = [ "<Shift><Super>s" ];
