@@ -7,7 +7,7 @@
     ./swayfx.nix
     ./silentSDDM.nix
     ./gnome.nix
-#    ./flatpak.nix
+    ./flatpak.nix
   ];
   
   environment.systemPackages = with pkgs; [
