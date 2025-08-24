@@ -5,7 +5,6 @@
     inputs.home-manager.nixosModules.default
   ];
 
-
   # add gnome and remove useless packages
   services.desktopManager.gnome.enable = true;
   environment.gnome.excludePackages = with pkgs; [
@@ -26,8 +25,6 @@
   ];
 
   home-manager.users.catdealer = { pkgs, ... }: {
-
-    with lib.hm.gavriant;
 
     # extensions
     home.packages = with pkgs; [
@@ -53,7 +50,7 @@
     };
 
     # gnome settings and such
-    dconf.settings = {
+    dconf.settings = with lib.hm.gavriant; {
       "org/gnome/desktop/interface" = {
         color-scheme = "prefer-dark";
       };
