@@ -39,19 +39,19 @@
         TimeoutStopSec = 10;
       };
     };
-  }; 
   
-  services.otd-daemon = {
-    description = "opentabletdriver-daemon";
-    wantedBy = [ "graphical-session.target" ];
-    wants = [ "graphical-session.target" ];
-    after = [ "graphical-session.target" ];
-    serviceConfig = {
-      Type = "simple";
-      ExecStart = "otd-daemon";
-      Restart = "on-failure";
-      RestartSec = 1;
-      TimeoutStopSec = 10;
+    services.otd-daemon = {
+      description = "opentabletdriver-daemon";
+      wantedBy = [ "graphical-session.target" ];
+      wants = [ "graphical-session.target" ];
+      after = [ "graphical-session.target" ];
+      serviceConfig = {
+        Type = "simple";
+        ExecStart = "otd-daemon";
+        Restart = "on-failure";
+        RestartSec = 1;
+        TimeoutStopSec = 10;
+      };
     };
   };
 }
