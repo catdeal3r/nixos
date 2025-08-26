@@ -2,14 +2,10 @@
 
 {
   environment.systemPackages = with pkgs; [ 
-    inputs.quickshell.packages.x86_64-linux.default
-    kdePackages.qt5compat
-    kdePackages.qtmultimedia
-    kdePackages.qtbase
-    kdePackages.qtdeclarative
-    kdePackages.qtwayland
-    kdePackages.qttools
-    kdePackages.qtshadertools
-    kdePackages.qtsvg
+   inputs.quickshell.packages.x86_64-linux.default 
+    qt6.qtimageformats
+    qt6.qt5compat
+    qt6.qtmultimedia
+    qt6.qtdeclarative
   ];
 }
