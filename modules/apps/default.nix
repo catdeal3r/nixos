@@ -4,8 +4,6 @@
 
   imports = [
     ./quickshell.nix
-    ./swayfx.nix
-    ./gnome.nix
     ./flatpak.nix
   ];
   

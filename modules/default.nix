@@ -4,6 +4,7 @@
     ./hardware
     ./user
     ./apps
+    ./display
   ];
 
 }
