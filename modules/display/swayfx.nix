@@ -32,7 +32,6 @@
       kdePackages.qtmultimedia
       kdePackages.qtbase
       kdePackages.qtdeclarative
-      kdePackages.qtquickcontrols2
       kdePackages.qtwayland
       kdePackages.qttools
       kdePackages.qtshadertools
