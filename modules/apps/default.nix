@@ -50,6 +50,7 @@
     stow
     helix  
     pkg-config
+    jq
   ];
   
   services.udisks2.enable = true;
