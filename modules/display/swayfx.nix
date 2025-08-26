@@ -27,14 +27,6 @@
       material-icons
       material-symbols
       nerd-fonts.hack
-      # quickshell
-      kdePackages.qt5compat
-      kdePackages.qtmultimedia
-      kdePackages.qtbase
-      kdePackages.qtdeclarative
-      kdePackages.qtwayland
-      kdePackages.qttools
-      kdePackages.qtshadertools
       # try to fix gtk monke ass ahh file picker
       xdg-user-dirs-gtk
       xdg-desktop-portal-gtk
