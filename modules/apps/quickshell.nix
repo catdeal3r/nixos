@@ -1,7 +1,7 @@
-{ inputs, ... }:
+{ inputs, pkgs, ... }:
 
 {
-  environment.systemPackages = [ 
+  environment.systemPackages = with pkgs; [ 
     inputs.quickshell.packages.x86_64-linux.default
     kdePackages.qt5compat
     kdePackages.qtmultimedia
