@@ -12,6 +12,7 @@
   boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-intel" ];
   boot.extraModulePackages = [ ];
+  services.thermald.enable = true;
 
   fileSystems."/" =
     { device = "/dev/disk/by-uuid/b0919a09-9b76-46d1-87e6-60b9a39a38d0";
