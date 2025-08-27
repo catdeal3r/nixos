@@ -51,6 +51,7 @@
     helix  
     pkg-config
     jq
+    power-profiles-daemon
   ];
   
   services.udisks2.enable = true;
