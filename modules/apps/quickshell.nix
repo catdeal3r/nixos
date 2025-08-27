@@ -2,7 +2,7 @@
 
 {
   environment.systemPackages = with pkgs; [ 
-   inputs.quickshell.packages.x86_64-linux.default 
+    inputs.quickshell.packages.x86_64-linux.default 
     qt6.qtimageformats
     qt6.qt5compat
     qt6.qtmultimedia
@@ -10,4 +10,6 @@
     kdePackages.qtbase
     kdePackages.qtmultimedia
   ];
+
+  qt.enable = true;
 }
