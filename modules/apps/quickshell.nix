@@ -8,5 +8,6 @@
     qt6.qtmultimedia
     qt6.qtdeclarative
     kdePackages.qtbase
+    kdePackages.qtmultimedia
   ];
 }
