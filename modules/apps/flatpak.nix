@@ -22,8 +22,6 @@
     ];
     
     overrides = {
-      global.Environment.XCURSOR_PATH = "/home/catdealer/.icons";
-
       "io.github.equicord.equibop".Context = {
         filesystems = [
           "/home/catdealer/" # Expose user directory and data drive
@@ -32,7 +30,7 @@
       };
      
       "md.obsidian.Obsidian".Context.filesystems = [
-        "/home/catdealer/.icons/" # fix monke cursor?
+        # fix monke cursor
         "/nix/store:ro"
       ];
     };
