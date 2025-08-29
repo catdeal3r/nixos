@@ -54,6 +54,7 @@
     power-profiles-daemon
     gparted
     pandoc
+    texliveTeTeX
   ];
   
   services.udisks2.enable = true;
