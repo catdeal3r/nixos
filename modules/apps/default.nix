@@ -52,6 +52,7 @@
     pkg-config
     jq
     power-profiles-daemon
+    gparted
   ];
   
   services.udisks2.enable = true;
