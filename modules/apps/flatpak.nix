@@ -32,7 +32,8 @@
       };
      
       "md.obsidian.Obsidian".Context.filesystems = [
-        "/home/catdealer/.icons/"
+        "/home/catdealer/.icons/" # fix monke cursor?
+        "/nix/store:ro"
       ];
     };
   };
