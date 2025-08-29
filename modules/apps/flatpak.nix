@@ -26,7 +26,8 @@
 
       "io.github.equicord.equibop".Context = {
         filesystems = [
-          "/home/catdealer/" # Expose user directory
+          "/home/catdealer/" # Expose user directory and data drive
+          "/run/media/catdealer/Data/"
         ];
       };
     };
