@@ -31,7 +31,7 @@
         ];
       };
      
-      "md.obsidian.Obsidian".Environment.filesystems = [
+      "md.obsidian.Obsidian".Context.filesystems = [
         "/home/catdealer/.icons/"
       ];
     };
