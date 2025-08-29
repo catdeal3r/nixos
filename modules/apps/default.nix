@@ -53,6 +53,7 @@
     jq
     power-profiles-daemon
     gparted
+    pandoc
   ];
   
   services.udisks2.enable = true;
