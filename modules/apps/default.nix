@@ -55,6 +55,7 @@
     gparted
     pandoc
     texliveTeTeX
+    fox
   ];
   
   services.udisks2.enable = true;
