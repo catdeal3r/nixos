@@ -4,7 +4,6 @@
   imports = [
     ./swayfx.nix
     ./gnome.nix
+    ./labwc.nix
   ];
-
-  programs.labwc.enable = true;
 }
