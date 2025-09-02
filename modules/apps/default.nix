@@ -56,6 +56,7 @@
     pandoc
     texliveTeTeX
     fox
+    tty-clock
   ];
   
   services.udisks2.enable = true;
