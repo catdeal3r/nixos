@@ -6,5 +6,5 @@
     ./gnome.nix
   ];
 
-  services.xserver.windowManager.openbox.enable = true;
+  programs.labwc.enable = true;
 }
