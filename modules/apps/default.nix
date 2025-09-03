@@ -57,6 +57,7 @@
     texliveTeTeX
     fox
     tty-clock
+    waybar
   ];
   
   services.udisks2.enable = true;
