@@ -58,6 +58,7 @@
     fox
     tty-clock
     waybar
+    imagemagick
   ];
   
   services.udisks2.enable = true;
