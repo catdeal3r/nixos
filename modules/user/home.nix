@@ -77,8 +77,8 @@
       };
       
       font = {
-        name = "CommitMono";
-        package = pkgs.commit-mono;
+        name = "Cherry";
+        package = pkgs.cherry;
       };
 
       cursorTheme = {

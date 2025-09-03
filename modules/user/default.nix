@@ -17,6 +17,7 @@
       dconf
       adwaita-icon-theme
       xdg-user-dirs
+      cherry
     ];
   };
   
