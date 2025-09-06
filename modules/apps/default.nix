@@ -60,6 +60,7 @@
     waybar
     imagemagick
     ueberzugpp
+    clipman
   ];
   
   services.udisks2.enable = true;
