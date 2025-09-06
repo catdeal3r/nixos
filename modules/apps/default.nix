@@ -59,6 +59,7 @@
     tty-clock
     waybar
     imagemagick
+    ueberzugpp
   ];
   
   services.udisks2.enable = true;
