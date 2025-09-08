@@ -77,7 +77,7 @@
       };
       
       font = {
-        name = "SF Pro";
+        name = "SF Pro Display";
         package = inputs.apple-fonts.packages.x86_64-linux.sf-pro;
       };
 
