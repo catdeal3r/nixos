@@ -77,8 +77,8 @@
       };
       
       font = {
-        name = "Cherry";
-        package = pkgs.cherry;
+        name = "SF Pro";
+        package = inputs.apple-fonts.packages.x86_64-linux.sf-pro;
       };
 
       cursorTheme = {
