@@ -88,7 +88,7 @@
 
       theme = {
         name = "WhiteSur-Dark";
-        package = pkgs.whitesur-gtk-theme.override { nautilusStyle = [ "mojave" ]; themeVariants = [ "blue" ]; };
+        package = pkgs.whitesur-gtk-theme.override { nautilusStyle = "mojave"; themeVariants = [ "blue" ]; };
       };
     };
     
