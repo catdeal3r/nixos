@@ -20,6 +20,7 @@
     libnotify
     whitesur-gtk-theme
     whitesur-icon-theme
+    gnome-terminal
   ];
   
   programs.dconf.enable = true;
@@ -111,10 +112,12 @@
         enabled-extensions = [
           "user-theme@gnome-shell-extensions.gcampax.github.com"
           "appindicatorsupport@rgcjonas.gmail.com"
-          #"just-perfection-desktop@just-perfection"
+          "just-perfection-desktop@just-perfection"
           "mediacontrols@cliffniff.github.com"
           "rounded-window-corners@fxgn"
           "search-light@icedman.github.com"
+          "dash-to-dock@micxgx.gmail.com"
+          "blur-my-shell@aunetx"
         ];
       };
       "org/gnome/settings-daemon/plugins/media-keys" = {
@@ -130,8 +133,8 @@
       };
       "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1" = {
         binding = "<Super>Return";
-        command = "kitty --detach";
-        name = "Kitty";
+        command = "gnome-terminal";
+        name = "Terminal";
       };
       # extensions settings
       "org/gnome/shell/extensions/appindicator" = {
@@ -204,6 +207,71 @@
         scale-height = 0.1;
         scale-width = 0.0;
         shortcut-search = [ "<Alt>space" ];
+      };
+      "org/gnome/shell/extensions/blur-my-shell" = {
+        settings-version = 2;
+
+	"appfolder" = {
+	  brightness = 0.6;
+	  sigma = 30;
+	};
+
+	"coverflow-alt-tab" = {
+	  pipeline = "pipeline_default";
+	};
+
+	"dash-to-dock" = {
+	  blur = true;
+	  brightness = 0.6;
+	  override-background = false;
+	  pipeline = "pipeline_default_rounded";
+	  sigma = 30;
+	  static-blur = true;
+	  style-dash-to-dock = 0;
+	};
+
+	"lockscreen" = {
+	  pipeline = "pipeline_default";
+	};
+
+	"overview" = {
+	  pipeline = "pipeline_default";
+	};
+
+	"panel" = {
+	  brightness = 0.6;
+	  pipeline = "pipeline_default";
+	  sigma = 30;
+	};
+
+	"screenshot" = {
+	  pipeline = "pipeline_default";
+	};
+
+	"window-list" = {
+	  brightness = 0.6;
+	  sigma = 30;
+	};
+      };
+      "/org/gnome/shell/extensions/dash-to-dock" = {
+        apply-custom-theme = false;
+        autohide-in-fullscreen = true;
+        background-opacity = 0.1;
+        custom-background-color = false;
+        dash-max-icon-size = 43;
+        dock-position = "LEFT";
+        extend-height = false;
+        height-fraction = 0.9;
+        icon-size-fixed = true;
+        intellihide = false;
+        intellihide-mode = "FOCUS_APPLICATION_WINDOWS";
+        multi-monitor = true;
+        preferred-monitor = -2;
+        preferred-monitor-by-connector = "eDP-1";
+        preview-size-scale = 0.0;
+        require-pressure-to-show = false;
+        running-indicator-style = "DOTS";
+        transparency-mode = "FIXED";
       };
     };
   };
