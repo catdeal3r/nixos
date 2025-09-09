@@ -19,6 +19,7 @@
     xdg-desktop-portal-gtk
     libnotify
     whitesur-gtk-theme
+    whitesur-icon-theme
   ];
   
   programs.dconf.enable = true;
@@ -62,8 +63,8 @@
       enable = true;
       
       theme = {
-        name = "Orchis-Grey-Dark";
-        package = pkgs.orchis-theme.override { tweaks = [ "black" "solid" ]; };
+        name = "WhiteSur-Dark";
+        package = pkgs.whitesur-gtk-theme;
       };
     };
 

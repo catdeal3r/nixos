@@ -72,8 +72,8 @@
       enable = true;
       
       iconTheme = {
-        name = "Adwaita";
-        package = pkgs.adwaita-icon-theme;
+        name = "WhiteSur-Dark";
+        package = pkgs.whitesur-icon-theme;
       };
       
       font = {
@@ -87,7 +87,7 @@
       };
 
       theme = {
-        name = "WhiteSur";
+        name = "WhiteSur-Dark";
         package = pkgs.whitesur-gtk-theme;
       };
     };
