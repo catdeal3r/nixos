@@ -251,7 +251,7 @@
         brightness = 0.6;
         sigma = 30;
       };
-      "/org/gnome/shell/extensions/dash-to-dock" = {
+      "org/gnome/shell/extensions/dash-to-dock" = {
         apply-custom-theme = false;
         autohide-in-fullscreen = true;
         background-opacity = 0.1;
