@@ -184,18 +184,22 @@
         workspace-wrap-around = true;
       };
       "org/gnome/shell/extensions/mediacontrols" = {
-        cache-art = false;
+        cache-art = true;
         colored-player-icon = false;
+        extension-index = mkUint32 2;
+        extension-position = "Right";
         extensions-index = 1;
-        labels-order = [ "ARTIST" "-" "TITLE" ];
         label-width = 220;
-        mouse-action-left = "PREVIOUS_TRACK";
+        labels-order = [ "ARTIST" "-" "TITLE" ];
+        mouse-action-left = "SHOW_POPUP_MENU";
         mouse-action-middle = "PLAY_PAUSE";
         mouse-action-right = "NEXT_TRACK";
         scroll-labels = true;
-        show-control-icons = false;
+        show-control-icons = true;
+        show-control-icons-seek-backward = false;
+        show-control-icons-seek-forward = false;
         show-player-icon = false;
-        show-track-slider = false;
+        show-track-slider = false; 
       };
       "org/gnome/shell/extensions/rounded-window-corners-reborn" = {
         border-width = 0;
