@@ -51,10 +51,14 @@
     # extensions
     home.packages = with pkgs; [
       gnomeExtensions.appindicator
-      gnomeExtensions.just-perfection
       gnomeExtensions.media-controls
       gnomeExtensions.rounded-window-corners-reborn
       gnomeExtensions.search-light
+      gnomeExtensions.logo-menu
+      gnomeExtensions.blur-my-shell
+      gnomeExtensions.dash-to-dock
+      gnomeExtensions.window-title-is-back
+      gnomeExtensions.macpeek
     ];
 
     programs.gnome-shell = {
@@ -112,14 +116,15 @@
         enabled-extensions = [
           "user-theme@gnome-shell-extensions.gcampax.github.com"
           "appindicatorsupport@rgcjonas.gmail.com"
-          "just-perfection-desktop@just-perfection"
           "mediacontrols@cliffniff.github.com"
           "rounded-window-corners@fxgn"
           "search-light@icedman.github.com"
           "dash-to-dock@micxgx.gmail.com"
           "blur-my-shell@aunetx"
-          "workspaces-by-open-apps@favo02.github.com"
           "logomenu@aryan_k"
+          "kiwi@kemma"
+          "window-title-is-back@fthx"
+          "MacPeek@gamalsherif1.github.io"
         ];
       };
       "org/gnome/settings-daemon/plugins/media-keys" = {
@@ -274,26 +279,23 @@
         running-indicator-style = "DOTS";
         transparency-mode = "FIXED";
       };
-      "org/gnome/shell/extensions/workspaces-indicator-by-open-apps" = {
-        apps-all-desaturate = false;
-        apps-inactive-effect = "REDUCE OPACITY";
-        apps-minimized-effect = "REDUCE OPACITY";
-        apps-symbolic-icons = false;
-        hide-activities-button = true;
-        indicator-hide-empty = true;
-        indicator-round-borders = false;
-        indicator-show-active-workspace = false;
-        indicator-show-focused-app = false;
-        indicator-show-indexes = true;
-        position-index = 1;
-        size-app-icon = 18;
-        size-labels = 12;
-        spacing-app-left = 3;
-        spacing-app-right = 3;
-        spacing-label-left = 2;
-      };
       "org/gnome/shell/extensions/Logo-menu" = {
         menu-button-icon-size = 25;
+      };
+      "org/gnome/shell/extensions/kiwi" = {
+        add-username-to-quick-menu = false;
+        hide-activities-button = true;
+        move-calendar-right = true;
+        panel-transparency = true;
+        panel-transparency-level = 5;
+        show-window-controls = false;
+        show-window-title = false;
+      };
+      "org/gnome/shell/extensions/window-title-is-back" = {
+        ease-time = 0;
+        show-app = true;
+        show-icon = false;
+        show-title = true;
       };
     };
   };
