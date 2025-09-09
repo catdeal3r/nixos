@@ -18,6 +18,7 @@
     dconf-editor
     xdg-desktop-portal-gtk
     libnotify
+    whitesur-gtk-theme
   ];
   
   programs.dconf.enable = true;

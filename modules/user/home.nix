@@ -87,8 +87,8 @@
       };
 
       theme = {
-        name = "Orchis-Grey-Dark";
-        package = pkgs.orchis-theme.override { tweaks = [ "black" "solid" ]; };
+        name = "WhiteSur";
+        package = pkgs.whitesur-gtk-theme;
       };
     };
     
