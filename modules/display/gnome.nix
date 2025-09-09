@@ -210,48 +210,46 @@
       };
       "org/gnome/shell/extensions/blur-my-shell" = {
         settings-version = 2;
+      };
 
-	"appfolder" = {
-	  brightness = 0.6;
-	  sigma = 30;
-	};
+      "org/gnome/shell/extensions/blur-my-shell/appfolder" = {
+	brightness = 0.6;
+	sigma = 30;
+      };
 
-	"coverflow-alt-tab" = {
-	  pipeline = "pipeline_default";
-	};
+      "org/gnome/shell/extensions/blur-my-shell/coverflow-alt-tab" = {
+	pipeline = "pipeline_default";
+      };
 
-	"dash-to-dock" = {
-	  blur = true;
-	  brightness = 0.6;
-	  override-background = false;
-	  pipeline = "pipeline_default_rounded";
-	  sigma = 30;
-	  static-blur = true;
-	  style-dash-to-dock = 0;
-	};
+      "org/gnome/shell/extensions/blur-my-shell/dash-to-dock" = {
+        blur = true;
+        brightness = 0.6;
+        override-background = false;
+        pipeline = "pipeline_default_rounded";
+        sigma = 30;
+        static-blur = true;
+        style-dash-to-dock = 0;
+      };
 
-	"lockscreen" = {
-	  pipeline = "pipeline_default";
-	};
+      "org/gnome/shell/extensions/blur-my-shell/lockscreen" = {
+	pipeline = "pipeline_default";
+      };
+      "org/gnome/shell/extensions/blur-my-shell/overview" = {
+	pipeline = "pipeline_default";
+      };
 
-	"overview" = {
-	  pipeline = "pipeline_default";
-	};
+      "org/gnome/shell/extensions/blur-my-shell/panel" = {
+        brightness = 0.6;
+        pipeline = "pipeline_default";
+        sigma = 30;
+      };
 
-	"panel" = {
-	  brightness = 0.6;
-	  pipeline = "pipeline_default";
-	  sigma = 30;
-	};
-
-	"screenshot" = {
-	  pipeline = "pipeline_default";
-	};
-
-	"window-list" = {
-	  brightness = 0.6;
-	  sigma = 30;
-	};
+      "org/gnome/shell/extensions/blur-my-shell/screenshot" = {
+        pipeline = "pipeline_default";
+      };
+      "org/gnome/shell/extensions/blur-my-shell/window-list" = {
+        brightness = 0.6;
+        sigma = 30;
       };
       "/org/gnome/shell/extensions/dash-to-dock" = {
         apply-custom-theme = false;
