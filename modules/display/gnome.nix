@@ -159,7 +159,7 @@
         panel-in-overview = true;
         ripple-box = false;
         search = false;
-        show-apps-button = true;
+        show-apps-button = false;
         startup-status = 0;
         support-notifier-showed-version = 34;
         support-notifier-type = 0;
@@ -257,7 +257,7 @@
         background-opacity = 0.1;
         custom-background-color = false;
         dash-max-icon-size = 43;
-        dock-position = "LEFT";
+        dock-position = "BOTTOM";
         extend-height = false;
         height-fraction = 0.9;
         icon-size-fixed = true;
