@@ -277,6 +277,7 @@
         preview-size-scale = 0.0;
         require-pressure-to-show = false;
         running-indicator-style = "DOTS";
+        show-show-apps-button = false;
         transparency-mode = "FIXED";
       };
       "org/gnome/shell/extensions/Logo-menu" = {
