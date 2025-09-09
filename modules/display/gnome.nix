@@ -118,6 +118,8 @@
           "search-light@icedman.github.com"
           "dash-to-dock@micxgx.gmail.com"
           "blur-my-shell@aunetx"
+          "workspaces-by-open-apps@favo02.github.com"
+          "logomenu@aryan_k"
         ];
       };
       "org/gnome/settings-daemon/plugins/media-keys" = {
@@ -149,7 +151,8 @@
         activites-button = true;
         clock-menu = true;
         clock-menu-positition = 1;
-        clock-menu-position-offset = 5;
+        clock-menu-position-offset = 0;
+        clock-menu-position = 1;
         dash = true;
         dash-app-running = true;
         dash-icon-size = 0;
@@ -261,7 +264,7 @@
         extend-height = false;
         height-fraction = 0.9;
         icon-size-fixed = true;
-        intellihide = false;
+        intellihide = true;
         intellihide-mode = "FOCUS_APPLICATION_WINDOWS";
         multi-monitor = true;
         preferred-monitor = -2;
@@ -270,6 +273,27 @@
         require-pressure-to-show = false;
         running-indicator-style = "DOTS";
         transparency-mode = "FIXED";
+      };
+      "org/gnome/shell/extensions/workspaces-indicator-by-open-apps" = {
+        apps-all-desaturate = false;
+        apps-inactive-effect = "REDUCE OPACITY";
+        apps-minimized-effect = "REDUCE OPACITY";
+        apps-symbolic-icons = false;
+        hide-activities-button = true;
+        indicator-hide-empty = true;
+        indicator-round-borders = false;
+        indicator-show-active-workspace = false;
+        indicator-show-focused-app = false;
+        indicator-show-indexes = true;
+        position-index = 1;
+        size-app-icon = 18;
+        size-labels = 12;
+        spacing-app-left = 3;
+        spacing-app-right = 3;
+        spacing-label-left = 2;
+      };
+      "org/gnome/shell/extensions/Logo-menu" = {
+        menu-button-icon-size = 25;
       };
     };
   };
