@@ -30,7 +30,7 @@
     gtk4
     brightnessctl
     pulseaudio
-    inputs.swww.packages.${pkgs.system}.swww
+    mpvpaper
     # fonts
     material-icons
     material-symbols
