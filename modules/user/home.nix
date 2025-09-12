@@ -78,12 +78,12 @@
       
       font = {
         name = "SF Pro Display";
-        package = inputs.apple-fonts.packages.x86_64-linux.sf-pro;
+        package = inputs.apple-fonts.packages.${pkgs.system}.sf-pro;
       };
 
       cursorTheme = {
         name = "McMojave";
-        package = inputs.mcmojave-cursor.packages.x86_64-linux.default; 
+        package = inputs.mcmojave-cursor.packages.${pkgs.system}.default; 
       };
 
       theme = {
@@ -95,7 +95,7 @@
     home.pointerCursor = {
       enable = true;
       name = "McMojave";
-      package = inputs.mcmojave-cursor.packages.x86_64-linux.default;
+      package = inputs.mcmojave-cursor.packages.${pkgs.system}.default;
       gtk.enable = true;
       x11.enable = true;
     };

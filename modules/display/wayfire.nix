@@ -30,6 +30,7 @@
     gtk4
     brightnessctl
     pulseaudio
+    inputs.swww.packages.${pkgs.system}.swww
     # fonts
     material-icons
     material-symbols
@@ -48,6 +49,6 @@
     material-symbols
     material-icons
     nerd-fonts.hack
-    inputs.apple-fonts.packages.x86_64-linux.sf-pro
+    inputs.apple-fonts.packages.${pkgs.system}.sf-pro
   ];
 }

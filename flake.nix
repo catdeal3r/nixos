@@ -14,8 +14,9 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    apple-fonts.url = "github:dealerofallthecats/apple-fonts-flake";
-    mcmojave-cursor.url = "github:dealerofallthecats/mcmojave-cursor-flake";
+    apple-fonts.url = "github:catdeal3r/apple-fonts-flake";
+    mcmojave-cursor.url = "github:catdeal3r/mcmojave-cursor-flake";
+    swww.url = "github:LDFae/swww";
   };
 
   outputs = { nixpkgs, ... }@inputs: {
