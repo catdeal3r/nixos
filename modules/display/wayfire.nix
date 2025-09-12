@@ -31,6 +31,7 @@
     brightnessctl
     pulseaudio
     mpvpaper
+    wf-recorder
     # fonts
     material-icons
     material-symbols
