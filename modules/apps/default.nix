@@ -61,7 +61,8 @@
     imagemagick
     ueberzugpp
     clipman
-    python314
+    python313
+    python313Packages.pip
   ];
   
   services.udisks2.enable = true;
