@@ -63,6 +63,7 @@
     clipman
     python313
     python313Packages.pip
+    viewnior
   ];
   
   services.udisks2.enable = true;
