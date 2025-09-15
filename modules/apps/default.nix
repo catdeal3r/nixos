@@ -64,6 +64,7 @@
     python313
     python313Packages.pip
     viewnior
+    ghidra
   ];
   
   services.udisks2.enable = true;
