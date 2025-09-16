@@ -70,6 +70,7 @@
     dbus
     alsa-lib
     xorg.libX11
+    xorg.libSM
   ];
 
   # Allow unfree packages
