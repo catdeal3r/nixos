@@ -72,6 +72,7 @@
     xorg.libX11
     xorg.libSM
     libxkbcommon
+    gtk3
   ];
 
   # Allow unfree packages
