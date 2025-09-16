@@ -69,6 +69,7 @@
   # Put missing dynamic libraries in here, not in the normal packaging place
     dbus
     alsa-lib
+    libX11
   ];
 
   # Allow unfree packages
