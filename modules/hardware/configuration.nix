@@ -68,12 +68,6 @@
   programs.nix-ld.libraries = with pkgs; [
   # Put missing dynamic libraries in here, not in the normal packaging place
     dbus
-    alsa-lib
-    xorg.libX11
-    xorg.libSM
-    libxkbcommon
-    gtk3
-    cairo
   ];
 
   # Allow unfree packages
