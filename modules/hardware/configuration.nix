@@ -71,6 +71,7 @@
     alsa-lib
     xorg.libX11
     xorg.libSM
+    libxkbcommon
   ];
 
   # Allow unfree packages
