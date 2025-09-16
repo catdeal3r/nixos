@@ -73,6 +73,7 @@
     xorg.libSM
     libxkbcommon
     gtk3
+    cairo
   ];
 
   # Allow unfree packages
