@@ -68,7 +68,7 @@
   programs.nix-ld.libraries = with pkgs; [
   # Put missing dynamic libraries in here, not in the normal packaging place
     dbus
-    libasound
+    alsa-lib
   ];
 
   # Allow unfree packages
