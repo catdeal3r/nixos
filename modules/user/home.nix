@@ -87,8 +87,8 @@
       };
 
       theme = {
-        name = "WhiteSur-Dark";
-        package = pkgs.whitesur-gtk-theme.override { nautilusStyle = "mojave"; themeVariants = [ "blue" ]; };
+        name = "Orchis-Grey-Dark";
+        package = pkgs.orchis-theme.override { tweaks = [ "solid" "black" "macos" ]; };
       };
     };
     

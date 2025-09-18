@@ -18,8 +18,7 @@
     dconf-editor
     xdg-desktop-portal-gtk
     libnotify
-    whitesur-gtk-theme
-    whitesur-icon-theme
+    orchis-theme
     gnome-terminal
   ];
   
@@ -65,8 +64,8 @@
       enable = true;
       
       theme = {
-        name = "WhiteSur-Dark";
-        package = pkgs.whitesur-gtk-theme.override { nautilusStyle = "mojave"; themeVariants = [ "blue" ]; };
+        name = "Orchis-Dark";
+        package = pkgs.orchis-theme.override { tweaks = [ "solid" "black" "macos" ]; };
       };
     };
 
@@ -122,6 +121,8 @@
           "dash-to-dock@micxgx.gmail.com"
           "blur-my-shell@aunetx"
           "logomenu@aryan_k"
+    whitesur-gtk-theme
+    gnome-terminal
           "kiwi@kemma"
           "window-title-is-back@fthx"
           "MacPeek@gamalsherif1.github.io"
