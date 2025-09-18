@@ -121,8 +121,6 @@
           "dash-to-dock@micxgx.gmail.com"
           "blur-my-shell@aunetx"
           "logomenu@aryan_k"
-    whitesur-gtk-theme
-    gnome-terminal
           "kiwi@kemma"
           "window-title-is-back@fthx"
           "MacPeek@gamalsherif1.github.io"
