@@ -36,6 +36,8 @@
     gvfs
     libgcc
     gnat15
+    libclang
+    clang_21
     vlc
     htop
     vscodium
