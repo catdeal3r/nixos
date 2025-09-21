@@ -37,6 +37,7 @@
     libgcc
     gnat15
     raylib
+    libGL
     vlc
     htop
     vscodium
