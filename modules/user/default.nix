@@ -18,6 +18,7 @@
       adwaita-icon-theme
       xdg-user-dirs
       cherry
+      tela-circle-icon-theme
     ];
   };
   

@@ -72,8 +72,8 @@
       enable = true;
       
       iconTheme = {
-        name = "WhiteSur-dark";
-        package = pkgs.whitesur-icon-theme;
+        name = "Tela-circle";
+        package = pkgs.tela-circle-icon-theme;
       };
       
       font = {
@@ -86,10 +86,10 @@
         package = inputs.mcmojave-cursor.packages.${pkgs.system}.default; 
       };
 
-      theme = {
-        name = "Orchis-Grey-Dark";
-        package = pkgs.orchis-theme.override { tweaks = [ "solid" "black" "macos" ]; };
-      };
+      #theme = {
+      #  name = "Orchis-Grey-Dark";
+      #  package = pkgs.orchis-theme.override { tweaks = [ "solid" "black" "macos" ]; };
+      #};
     };
     
     home.pointerCursor = {
