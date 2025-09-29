@@ -36,7 +36,7 @@
     material-icons
     material-symbols
     nerd-fonts.hack
-    roboto-mono
+    roboto
     # try to fix gtk monke ass ahh file picker
     xdg-user-dirs-gtk
     xdg-desktop-portal-gtk
@@ -51,7 +51,7 @@
     material-symbols
     material-icons
     nerd-fonts.hack
-    roboto-mono
+    roboto
     inputs.apple-fonts.packages.${pkgs.system}.sf-pro
   ];
 }
