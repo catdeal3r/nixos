@@ -60,6 +60,24 @@
         "type": "github"
       }
     },
+    "flake-parts_3": {
+      "inputs": {
+        "nixpkgs-lib": "nixpkgs-lib_3"
+      },
+      "locked": {
+        "lastModified": 1756770412,
+        "narHash": "sha256-+uWLQZccFHwqpGqr2Yt5VsW/PbeJVTn9Dk6SHWhNRPw=",
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "rev": "4524271976b625a4a605beefd893f270620fd751",
+        "type": "github"
+      },
+      "original": {
+        "owner": "hercules-ci",
+        "repo": "flake-parts",
+        "type": "github"
+      }
+    },
     "flatpak-nix": {
       "locked": {
         "lastModified": 1739444422,
@@ -181,6 +199,21 @@
         "type": "github"
       }
     },
+    "nixpkgs-lib_3": {
+      "locked": {
+        "lastModified": 1754788789,
+        "narHash": "sha256-x2rJ+Ovzq0sCMpgfgGaaqgBSwY+LST+WbZ6TytnT9Rk=",
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "rev": "a73b9c743612e4244d865a2fdee11865283c04e6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "nixpkgs.lib",
+        "type": "github"
+      }
+    },
     "nixpkgs_2": {
       "locked": {
         "lastModified": 1755615617,
@@ -213,6 +246,22 @@
         "type": "github"
       }
     },
+    "nixpkgs_4": {
+      "locked": {
+        "lastModified": 1759036355,
+        "narHash": "sha256-0m27AKv6ka+q270dw48KflE0LwQYrO7Fm4/2//KCVWg=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "e9f00bd893984bc8ce46c895c3bf7cac95331127",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "ny-source": {
       "flake": false,
       "locked": {
@@ -223,6 +272,39 @@
       "original": {
         "type": "file",
         "url": "https://devimages-cdn.apple.com/design/resources/download/NY.dmg"
+      }
+    },
+    "product-sans-font": {
+      "inputs": {
+        "flake-parts": "flake-parts_3",
+        "nixpkgs": "nixpkgs_4",
+        "product-sans-source": "product-sans-source"
+      },
+      "locked": {
+        "lastModified": 1759190892,
+        "narHash": "sha256-yMwnLXNU8mn0Sm3+sbBeO+kP2Fzu5O9FVVWXSGhVDoI=",
+        "owner": "catdeal3r",
+        "repo": "product-sans-flake",
+        "rev": "0f4c4bf52f27937e65a381d4a8973a004fae03da",
+        "type": "github"
+      },
+      "original": {
+        "owner": "catdeal3r",
+        "repo": "product-sans-flake",
+        "type": "github"
+      }
+    },
+    "product-sans-source": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1482011344,
+        "narHash": "sha256-PF2n4d9+t1vscpCRWZ0CR3X0XBefzL9BAkLHoqWFZR4=",
+        "type": "tarball",
+        "url": "https://befonts.com/wp-content/uploads/2018/08/product-sans.zip"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://befonts.com/wp-content/uploads/2018/08/product-sans.zip"
       }
     },
     "quickshell": {
@@ -252,6 +334,7 @@
         "home-manager": "home-manager",
         "mcmojave-cursor": "mcmojave-cursor",
         "nixpkgs": "nixpkgs_3",
+        "product-sans-font": "product-sans-font",
         "quickshell": "quickshell",
         "silentSDDM": "silentSDDM"
       }

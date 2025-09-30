@@ -55,6 +55,6 @@
     roboto
     inter
     inputs.apple-fonts.packages.${pkgs.system}.sf-pro
-    inputs.product-sans.packages.${pkgs.system}.default
+    inputs.product-sans-font.packages.${pkgs.system}.default
   ];
 }
