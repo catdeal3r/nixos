@@ -16,6 +16,7 @@
     };
     apple-fonts.url = "github:catdeal3r/apple-fonts-flake";
     mcmojave-cursor.url = "github:catdeal3r/mcmojave-cursor-flake";
+    product-sans-font.url = "github:catdeal3r/product-sans-flake";
   };
 
   outputs = { nixpkgs, ... }@inputs: {
