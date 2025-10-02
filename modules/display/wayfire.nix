@@ -32,6 +32,7 @@
     pulseaudio
     mpvpaper
     wf-recorder
+    gammastep
     # fonts
     material-icons
     material-symbols
