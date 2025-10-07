@@ -68,6 +68,7 @@
     viewnior
     ghidra
     gdb
+    gnome-boxes
   ];
   
   services.udisks2.enable = true;
