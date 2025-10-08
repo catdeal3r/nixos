@@ -68,6 +68,7 @@
   # Put missing dynamic libraries in here, not in the normal packaging place
     dbus
     harfbuzz
+    freetype
   ];
 
   # Allow unfree packages
