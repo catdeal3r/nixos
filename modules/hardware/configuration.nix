@@ -72,6 +72,7 @@
     fontconfig
     fribidi
     expat
+    openssl
   ];
 
   # Allow unfree packages
