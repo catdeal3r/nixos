@@ -69,6 +69,7 @@
     dbus
     harfbuzz
     freetype
+    fontconfig
   ];
 
   # Allow unfree packages
