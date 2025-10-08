@@ -70,6 +70,7 @@
     harfbuzz
     freetype
     fontconfig
+    fribidi
   ];
 
   # Allow unfree packages
