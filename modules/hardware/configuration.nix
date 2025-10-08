@@ -71,6 +71,7 @@
     freetype
     fontconfig
     fribidi
+    expat
   ];
 
   # Allow unfree packages
