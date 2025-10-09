@@ -70,7 +70,6 @@
     gdb
     gnome-boxes
     dnsmasq
-    openssl
   ];
   
   services.udisks2.enable = true;
