@@ -44,6 +44,7 @@
       desktopEntries.firefox = {
         name = "Firefox";
         genericName = "Web Browser";
+        comment = "Browse the internet";
         categories = [ "Network" "WebBrowser" ];
         icon = "firefox";
         mimeType = [ "text/html" "text/xml" "application/xhtml+xml" "application/vnd.mozilla.xul+xml" "x-scheme-handler/http" "x-scheme-handler/https" ];
