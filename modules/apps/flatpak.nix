@@ -17,7 +17,6 @@
 
     packages = [
       "io.gitlab.theevilskeleton.Upscaler"
-      "io.github.equicord.equibop"
       "md.obsidian.Obsidian"
       "com.transmissionbt.Transmission"
       "com.usebottles.bottles"
