@@ -70,6 +70,7 @@
     gdb
     gnome-boxes
     dnsmasq
+    equibop
   ];
   
   services.udisks2.enable = true;
