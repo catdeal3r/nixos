@@ -73,6 +73,7 @@
     equibop
     xsel
     ngrok
+    php
   ];
   
   services.udisks2.enable = true;
