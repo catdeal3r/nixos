@@ -7,6 +7,7 @@
   environment.systemPackages = with pkgs; [
     alacritty
     foot
+    ghostty
     xwayland-satellite
     swaybg
     swayidle
