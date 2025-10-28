@@ -74,7 +74,6 @@
     xsel
     ngrok
     php
-    tor-browser
   ];
   
   services.udisks2.enable = true;
