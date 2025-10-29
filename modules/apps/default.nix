@@ -74,6 +74,7 @@
     xsel
     ngrok
     php
+    openvpn
   ];
   
   services.udisks2.enable = true;
