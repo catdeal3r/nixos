@@ -33,10 +33,6 @@
       git clone https://github.com/catdeal3r/personaldots /home/catdeal3r/personaldots
       stow -d /home/catdealer/personaldots -t /home/catdealer
     fi
-    if [ ! -d "/home/catdealer/monke" ]; then
-      mkdir /home/catdealer/monke
-      echo "banger" > /home/catdealer/monke/test.txt
-    fi
   '';
 
   # polkit
