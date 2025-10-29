@@ -28,6 +28,13 @@
     blacklistedKernelModules = [ "wacom" ];
   };
 
+  system.userActivationScripts.clone-config = ''
+    if [ ! -d "/home/catdealer/personaldots" ]; then
+      git clone https://github.com/catdeal3r/personaldots /home/catdeal3r/personaldots
+      stow -d /home/catdealer/personaldots -t /home/catdealer
+    fi
+  '';
+
   # polkit
   security.polkit.enable = true;
   
