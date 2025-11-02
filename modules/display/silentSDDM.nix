@@ -14,10 +14,13 @@
 in
 {
   environment.systemPackages = [ sddm-theme sddm-theme.test ];
+
   qt.enable = true;
+
   services.displayManager.sddm = {
     package = pkgs.kdePackages.sddm;
     enable = true;
+    wayland.enable = true;
     theme = sddm-theme.pname;
     extraPackages = sddm-theme.propagatedBuildInputs;
     settings = {
