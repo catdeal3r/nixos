@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./slientSDDM.nix
+    ./silentSDDM.nix
     ./niri.nix
   ];
 }
