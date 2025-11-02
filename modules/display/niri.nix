@@ -5,7 +5,6 @@
   programs.niri.enable = true;
 
   environment.systemPackages = with pkgs; [
-    alacritty
     foot
     xwayland-satellite
     swaybg

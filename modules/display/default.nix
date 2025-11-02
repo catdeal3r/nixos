@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./gnome.nix
+    ./slientSDDM.nix
     ./niri.nix
   ];
 }
