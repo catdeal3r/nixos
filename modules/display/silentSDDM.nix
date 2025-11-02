@@ -13,8 +13,6 @@
   };
 in
 {
-  services.displayManager.sddm.enable = true;
-
   environment.systemPackages = [ sddm-theme sddm-theme.test ];
   qt.enable = true;
   services.displayManager.sddm = {
