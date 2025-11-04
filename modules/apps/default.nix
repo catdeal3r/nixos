@@ -76,6 +76,7 @@
     ngrok
     php
     openvpn
+    lunar-client
   ];
   
   services.udisks2.enable = true;
