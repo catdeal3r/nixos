@@ -77,6 +77,7 @@
     php
     openvpn
     lunar-client
+    gnome-calculator
   ];
   
   services.udisks2.enable = true;
