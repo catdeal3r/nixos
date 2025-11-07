@@ -79,7 +79,6 @@
     lunar-client
     gnome-calculator
     sherlock-launcher
-    vicinae
   ];
   
   services.udisks2.enable = true;
