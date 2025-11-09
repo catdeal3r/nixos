@@ -79,6 +79,7 @@
     lunar-client
     gnome-calculator
     sherlock-launcher
+    impression
   ];
   
   services.udisks2.enable = true;
