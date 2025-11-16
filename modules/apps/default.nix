@@ -77,6 +77,7 @@
     php
     openvpn
     lunar-client
+    prismlauncher
     gnome-calculator
     sherlock-launcher
   ];
