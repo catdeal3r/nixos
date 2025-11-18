@@ -80,6 +80,7 @@
     prismlauncher
     gnome-calculator
     sherlock-launcher
+    proxychains
   ];
   
   services.udisks2.enable = true;
