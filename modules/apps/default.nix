@@ -81,6 +81,7 @@
     gnome-calculator
     sherlock-launcher
     proxychains
+    fuse3
   ];
   
   services.udisks2.enable = true;
