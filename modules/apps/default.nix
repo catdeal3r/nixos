@@ -82,6 +82,9 @@
     sherlock-launcher
     proxychains
     fuse3
+    calyx-vpn
+    amnezia-vpn
+    kronosnet
   ];
   
   services.udisks2.enable = true;
