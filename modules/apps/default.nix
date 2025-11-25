@@ -79,6 +79,7 @@
     lunar-client
     prismlauncher
     gnome-calculator
+    gnome-clocks
     sherlock-launcher
     proxychains
     fuse3
