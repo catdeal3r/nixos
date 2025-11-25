@@ -85,6 +85,7 @@
     calyx-vpn
     amnezia-vpn
     kronosnet
+    hiddify-app
   ];
   
   services.udisks2.enable = true;
