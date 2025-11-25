@@ -20,7 +20,7 @@
       "md.obsidian.Obsidian"
       "com.transmissionbt.Transmission"
       "com.usebottles.bottles"
-      "org.mozilla.vpn"
+      "com.protonvpn.www"
     ];
     
     overrides = {
