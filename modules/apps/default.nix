@@ -83,6 +83,7 @@
     sherlock-launcher
     proxychains
     fuse3
+    btop
   ];
   
   services.udisks2.enable = true;
