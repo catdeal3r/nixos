@@ -19,7 +19,8 @@
       "io.gitlab.theevilskeleton.Upscaler"
       "md.obsidian.Obsidian"
       "com.transmissionbt.Transmission"
-      "com.usebottles.bottles"
+      "com.usebottles.bottles",
+      "org.mozilla.vpn"
     ];
     
     overrides = {
