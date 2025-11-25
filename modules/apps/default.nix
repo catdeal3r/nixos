@@ -82,7 +82,6 @@
     sherlock-launcher
     proxychains
     fuse3
-    winboat
   ];
   
   services.udisks2.enable = true;
