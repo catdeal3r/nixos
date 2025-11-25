@@ -82,10 +82,7 @@
     sherlock-launcher
     proxychains
     fuse3
-    calyx-vpn
-    amnezia-vpn
-    kronosnet
-    hiddify-app
+    winboat
   ];
   
   services.udisks2.enable = true;
