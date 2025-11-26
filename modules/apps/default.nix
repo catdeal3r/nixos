@@ -84,6 +84,7 @@
     proxychains
     fuse3
     btop
+    unityhub
   ];
   
   services.udisks2.enable = true;
