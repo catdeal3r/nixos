@@ -85,6 +85,7 @@
     fuse3
     btop
     godot
+    bitwig-studio
   ];
   
   services.udisks2.enable = true;
