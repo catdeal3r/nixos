@@ -85,7 +85,6 @@
     fuse3
     btop
     godot
-    bitwig-studio
     reaper
   ];
   
