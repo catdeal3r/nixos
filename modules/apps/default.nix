@@ -86,6 +86,7 @@
     btop
     godot
     bitwig-studio
+    reaper
   ];
   
   services.udisks2.enable = true;
