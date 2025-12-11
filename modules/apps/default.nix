@@ -86,6 +86,8 @@
     btop
     godot
     reaper
+    vital
+    helm
   ];
   
   services.udisks2.enable = true;
