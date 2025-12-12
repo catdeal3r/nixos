@@ -88,6 +88,7 @@
     reaper
     vital
     helm
+    stirling-pdf
   ];
   
   services.udisks2.enable = true;
