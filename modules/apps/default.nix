@@ -1,5 +1,13 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 
+
+let
+
+  pkgs-stable = import inputs.nixpkgs-stable {
+    system = pkgs.system;
+  };
+
+in
 {
 
   imports = [
@@ -80,7 +88,7 @@
     prismlauncher
     gnome-calculator
     gnome-clocks
-    sherlock-launcher
+    pkgs-stable.sherlock-launcher
     proxychains
     fuse3
     btop
