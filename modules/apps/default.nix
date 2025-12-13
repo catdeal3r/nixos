@@ -1,10 +1,11 @@
-{ pkgs, inputs, ... }:
+{ pkgs, inputs, config, ... }:
 
 
 let
 
   pkgs-stable = import inputs.nixpkgs-stable {
     system = pkgs.system;
+    config.allowUnfree = true;
   };
 
 in
