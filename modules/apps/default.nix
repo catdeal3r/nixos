@@ -89,7 +89,7 @@ in
     prismlauncher
     gnome-calculator
     gnome-clocks
-    pkgs-stable.sherlock-launcher
+    sherlock-launcher
     proxychains
     fuse3
     btop
