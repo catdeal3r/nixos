@@ -4,6 +4,7 @@ sudo git add .
 gen=$(date '+%a %-d %b %Y %I:%M:%S %p')
 sudo git commit -m "$gen"
 if [[ $1 == "u" ]]; then
+  sudo nix flake update
   sudo nixos-rebuild --flake .# switch --upgrade
 else
   sudo nixos-rebuild --flake .# switch
