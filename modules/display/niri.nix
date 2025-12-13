@@ -17,7 +17,7 @@
     libnotify
     wl-clipboard
     glib
-    lxde.lxsession
+    lxsession
     gtk3
     gtk4
     brightnessctl
