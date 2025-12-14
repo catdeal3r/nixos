@@ -47,7 +47,7 @@ in
     gnat15
     raylib
     libGL
-    vlc
+    vlcpkgs-stable.
     htop
     vscodium
     libreoffice
@@ -98,6 +98,7 @@ in
     vital
     helm
     stirling-pdf
+    inputs.prism-cracked.packages.$(pkgs.system}.default
   ];
   
   services.udisks2.enable = true;
