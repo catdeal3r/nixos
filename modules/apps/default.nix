@@ -98,7 +98,7 @@ in
     vital
     helm
     stirling-pdf
-    inputs.prism-cracked.packages.${pkgs.system}.default
+    #inputs.prism-cracked.packages.${pkgs.system}.default
   ];
   
   services.udisks2.enable = true;
