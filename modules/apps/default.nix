@@ -47,7 +47,7 @@ in
     gnat15
     raylib
     libGL
-    vlcpkgs-stable
+    vlc
     htop
     vscodium
     libreoffice
