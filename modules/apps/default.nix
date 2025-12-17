@@ -99,6 +99,7 @@ in
     helm
     stirling-pdf
     #inputs.prism-cracked.packages.${pkgs.system}.default
+    kdePackages.kdenlive
   ];
   
   services.udisks2.enable = true;
