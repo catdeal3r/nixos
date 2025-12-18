@@ -111,4 +111,8 @@ in
 
   users.groups.libvirtd.members = [ "catdealer" ];
   users.groups.kvm.members = [ "catdealer" ];
+
+  fonts.packages = with pkgs; [
+    minecraftia
+  ];
 }
