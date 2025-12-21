@@ -138,16 +138,16 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "lastModified": 1738245825,
-        "narHash": "sha256-TYHVIAdmH5uynnW/Engq1DO9m/o3Ec/mmmdBx6g7kOc=",
-        "owner": "rminstrel",
-        "repo": "llaunch-nixos",
-        "rev": "f790916444e17cd8a73ea66b4480984f250eebc8",
+        "lastModified": 1766285059,
+        "narHash": "sha256-h4EYfBuXp4XDeQeDPL1J9pP8QF3he03FPw49Q+2kVgI=",
+        "owner": "catdeal3r",
+        "repo": "llauncher-flake",
+        "rev": "7cf390128752eaf1837f781b2d1008cfcc9f6bef",
         "type": "github"
       },
       "original": {
-        "owner": "rminstrel",
-        "repo": "llaunch-nixos",
+        "owner": "catdeal3r",
+        "repo": "llauncher-flake",
         "type": "github"
       }
     },
