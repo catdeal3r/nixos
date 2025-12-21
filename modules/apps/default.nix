@@ -98,8 +98,8 @@ in
     vital
     helm
     stirling-pdf
-    #inputs.prism-cracked.packages.${pkgs.system}.default
-    inputs.legacyLauncher.packages.${pkgs.system}.legacylauncher
+    inputs.prism-cracked.packages.${pkgs.system}.default
+    #inputs.legacyLauncher.packages.${pkgs.system}.legacylauncher
     kdePackages.kdenlive
   ];
   
