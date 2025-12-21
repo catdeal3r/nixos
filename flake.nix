@@ -3,6 +3,7 @@
     nixpkgs.url = github:NixOs/nixpkgs/nixos-unstable;
     nixpkgs-stable.url = github:NixOs/nixpkgs/nixos-25.05;
     prism-cracked.url = github:Diegiwg/PrismLauncher-Cracked;
+    legacyLauncher.url = "github:rminstrel/llaunch-nixos";
     quickshell = {
       url = "git+https://git.outfoxxed.me/outfoxxed/quickshell";
       inputs.nixpkgs.follows = "nixpkgs";
