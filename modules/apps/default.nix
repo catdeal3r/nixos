@@ -102,15 +102,16 @@ in
     inputs.idescriptor.packages.${pkgs.system}.default
     #inputs.legacyLauncher.packages.${pkgs.system}.legacylauncher
     kdePackages.kdenlive
+    ifuse
+    libimobiledevice
   ];
   
   services.udisks2.enable = true;
   services.gvfs.enable = true;
   services.avahi.enable = true;
+  services.usbmuxd.enabled = true;
 
-  virtualisation.libvirtd = {
-    enable = true;
-  };
+  virtualisation.libvirtd.enable = true;
 
   users.groups.libvirtd.members = [ "catdealer" ];
   users.groups.kvm.members = [ "catdealer" ];
