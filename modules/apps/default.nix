@@ -99,6 +99,7 @@ in
     helm
     stirling-pdf
     inputs.prism-cracked.packages.${pkgs.system}.default
+    inputs.idescriptor.packages.${pkgs.system}.default
     #inputs.legacyLauncher.packages.${pkgs.system}.legacylauncher
     kdePackages.kdenlive
   ];
