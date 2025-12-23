@@ -109,7 +109,7 @@ in
   services.udisks2.enable = true;
   services.gvfs.enable = true;
   services.avahi.enable = true;
-  services.usbmuxd.enabled = true;
+  services.usbmuxd.enable = true;
 
   virtualisation.libvirtd.enable = true;
 
