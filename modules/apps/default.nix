@@ -106,6 +106,7 @@ in
   
   services.udisks2.enable = true;
   services.gvfs.enable = true;
+  services.avahi.enable = true;
 
   virtualisation.libvirtd = {
     enable = true;
