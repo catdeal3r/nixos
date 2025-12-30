@@ -77,8 +77,16 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  hardware.graphics = {
+    enable = true;
+    driSupport32Bit = true;
+    extraPackages = with pkgs; [
+        intel-compute-runtime
+    ];
+  };
+
   # Firewall.
-  # networking.firewall.enable = true;
+  networking.firewall.enable = true;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
