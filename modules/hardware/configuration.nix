@@ -77,6 +77,8 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  hardware.opengl.enable = true;
+
   hardware.graphics = {
     enable = true;
     enable32Bit = true;
