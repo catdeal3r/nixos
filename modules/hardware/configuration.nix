@@ -83,6 +83,10 @@
     extraPackages = with pkgs; [
         intel-compute-runtime
         rocmPackages.clr.icd
+        intel-media-driver # LIBVA_DRIVER_NAME=iHD
+        intel-media-sdk
+        vpl-gpu-rt
+        intel-gmmlib
     ];
   };
 
