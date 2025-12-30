@@ -105,6 +105,7 @@ in
     ifuse
     libimobiledevice
     yt-dlp
+    davinci-resolve
   ];
   
   services.udisks2.enable = true;
