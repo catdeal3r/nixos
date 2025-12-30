@@ -104,6 +104,7 @@ in
     kdePackages.kdenlive
     ifuse
     libimobiledevice
+    yt-dlp
   ];
   
   services.udisks2.enable = true;
