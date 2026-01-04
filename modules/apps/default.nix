@@ -108,6 +108,7 @@ in
     davinci-resolve
     moonlight-qt
     sunshine
+    steam
   ];
   
   services.udisks2.enable = true;
