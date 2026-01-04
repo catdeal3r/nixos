@@ -18,7 +18,7 @@ in
   qt.enable = true;
 
   services.displayManager.sddm = {
-    package = pkgs.kdePackages.sddm;
+    #package = pkgs.kdePackages.sddm;
     enable = true;
     wayland.enable = true;
     theme = sddm-theme.pname;
