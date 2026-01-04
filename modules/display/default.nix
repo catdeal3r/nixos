@@ -2,7 +2,7 @@
 
 {
   imports = [
-    # ./silentSDDM.nix
+    ./silentSDDM.nix
     ./niri.nix
     ./labwc.nix
     ./kde.nix
