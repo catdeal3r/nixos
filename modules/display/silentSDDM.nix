@@ -19,7 +19,7 @@ in
 
   services.displayManager.sddm = {
     package = pkgs.kdePackages.sddm;
-  #  enable = true;
+    enable = true;
     wayland.enable = true;
     theme = sddm-theme.pname;
     extraPackages = sddm-theme.propagatedBuildInputs;
