@@ -5,5 +5,6 @@
     ./silentSDDM.nix
     ./niri.nix
     ./labwc.nix
+    ./kde.nix
   ];
 }
