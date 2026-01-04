@@ -106,6 +106,8 @@ in
     libimobiledevice
     yt-dlp
     davinci-resolve
+    moonlight-qt
+    sunshine
   ];
   
   services.udisks2.enable = true;
